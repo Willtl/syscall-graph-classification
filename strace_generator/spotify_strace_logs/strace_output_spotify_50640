@@ -1,0 +1,37 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffc0ce53ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\26\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\27\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+gettid()                                = 50640
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffc0ce53c00, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffc0ce53bb0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc0ce53c00, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffc0ce53bb0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc0ce53bf0, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24057, tv_nsec=318919378}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc0ce53ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(16, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\31\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffc0ce53c00, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffc0ce53bb0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\0", 1)                      = 1
+futex(0x7ffc0ce53c00, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffc0ce53bb0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\0", 1)                      = 1
+sendto(16, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\32\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x7f72dd7fd9d0, FUTEX_WAIT, 50644, NULL) = 0
+write(19, "\0", 1)                      = 1
+futex(0x7f72e8e6b9d0, FUTEX_WAIT, 50641, NULL) = 0
+munmap(0x7f72e8295000, 436711)          = 0
+close(8)                                = 0
+munmap(0x7f72e80e7000, 1072982)         = 0
+close(11)                               = 0
+munmap(0x7f72e81ed000, 687134)          = 0
+close(10)                               = 0
+munmap(0x7f72e2dfd000, 8163591)         = 0
+close(9)                                = 0
+close(5)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

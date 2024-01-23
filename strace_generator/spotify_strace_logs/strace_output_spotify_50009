@@ -1,0 +1,21 @@
+futex(0x7ffe07b20510, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffe07b204c0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(21, "\0", 1)                      = 1
+sendto(5, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\370\26\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(21, "\0", 1)                      = 1
+futex(0x7f195b0349d0, FUTEX_WAIT, 50027, NULL) = 0
+write(14, "\0", 1)                      = 1
+futex(0x7f1961b169d0, FUTEX_WAIT, 50024, NULL) = 0
+futex(0x7ffe07b20600, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffe07b205b0, FUTEX_WAKE_PRIVATE, 1) = 0
+munmap(0x7f1960507000, 436711)          = 0
+close(7)                                = 0
+munmap(0x7f1960359000, 1072982)         = 0
+close(10)                               = 0
+munmap(0x7f196045f000, 687134)          = 0
+close(9)                                = 0
+munmap(0x7f195b836000, 8163591)         = 0
+close(8)                                = 0
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

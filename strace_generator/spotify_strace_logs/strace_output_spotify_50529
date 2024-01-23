@@ -1,0 +1,640 @@
+access("/snap/spotify/74/gnome-platform/usr/share/locale/pa/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/pap/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/pi/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/pl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ps/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/pt/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/pt_BR/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ro/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/rom/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ru/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/rw/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sa/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sc/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sd/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/se/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/shn/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/si/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/so/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/son/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sq/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sr@Latn/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sr@ije/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sr@latin/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sv/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/sw/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ta/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ta_LK/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/te/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tg/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/th/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ti/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tig/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tt/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/tt@iqtelif/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ug/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/uk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ur/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/uz/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/uz@cyrillic/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/ve/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/vec/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/vi/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/wa/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/wal/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/wo/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/xh/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/yi/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/yo/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/zh_CN/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/zh_HK/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/zh_Hant/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/zh_TW/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale/zu/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+getdents64(5, 0x4015f20 /* 0 entries */, 32768) = 0
+close(5)                                = 0
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack", F_OK) = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/share/locale-langpack", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=999, ...}) = 0
+getdents64(5, 0x4015f20 /* 95 entries */, 32768) = 2352
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/af/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/am/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/an/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ar/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/as/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ast/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/az/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/be/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/bg/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/bn/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/br/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/bs/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ca/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ca@valencia/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ckb/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/crh/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/cs/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/cy/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/da/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/de/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/dz/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/el/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/en/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/en_AU/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/en_CA/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/en_GB/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/eo/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/es/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/et/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/eu/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/fa/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/fi/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/fr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/fur/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ga/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/gd/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/gl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/gu/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/he/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/hi/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/hr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/hu/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ia/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/id/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/is/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/it/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ja/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ka/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/kk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/km/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/kn/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ko/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ku/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/lt/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/lv/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/mk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ml/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/mr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ms/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/my/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/nb/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/nds/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ne/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/nl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/nn/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/oc/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/or/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/pa/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/pl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/pt/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/pt_BR/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ro/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ru/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/si/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/sk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/sl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/sq/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/sr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/sr@latin/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/sv/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/szl/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ta/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/te/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/tg/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/th/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/tr/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/ug/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/uk/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/vi/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/xh/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/zh_CN/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/zh_HK/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/gnome-platform/usr/share/locale-langpack/zh_TW/LC_MESSAGES/gnutls30.mo", F_OK) = -1 ENOENT (No such file or directory)
+getdents64(5, 0x4015f20 /* 0 entries */, 32768) = 0
+close(5)                                = 0
+access("/snap/spotify/74/usr/share/locale", F_OK) = -1 ENOENT (No such file or directory)
+access("/snap/spotify/74/usr/share/locale-langpack", F_OK) = -1 ENOENT (No such file or directory)
+brk(0x4048000)                          = 0x4048000
+getrandom("\x48", 1, GRND_NONBLOCK)     = 1
+stat("/etc/gnutls/config", 0x7ffc0ce54f00) = -1 ENOENT (No such file or directory)
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+brk(0x406b000)                          = 0x406b000
+brk(0x408c000)                          = 0x408c000
+gettid()                                = 50529
+brk(0x40ad000)                          = 0x40ad000
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY) = 5
+read(5, "F\204\333\364", 4)             = 4
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+uname({sysname="Linux", nodename="willpc", ...}) = 0
+gettid()                                = 50529
+gettid()                                = 50529
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f72e866b000
+mprotect(0x7f72e866c000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f72e8e68f30, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[50542], tls=0x7f72e8e6b700, child_tidptr=0x7f72e8e6b9d0) = 50542
+futex(0x7f72e8e6b9d0, FUTEX_WAIT, 50542, NULL) = 0
+getcwd("/home/will", 512)               = 11
+gettid()                                = 50529
+gettid()                                = 50529
+getpid()                                = 50529
+brk(0x40ce000)                          = 0x40ce000
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+stat("/", {st_mode=S_IFDIR|0755, st_size=540, ...}) = 0
+stat("/snap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/snap/spotify/74", {st_mode=S_IFDIR|0755, st_size=100, ...}) = 0
+stat("/snap/spotify/74/usr", {st_mode=S_IFDIR|0755, st_size=74, ...}) = 0
+stat("/snap/spotify/74/usr/share", {st_mode=S_IFDIR|0755, st_size=30, ...}) = 0
+stat("/snap/spotify/74/usr/share/spotify", {st_mode=S_IFDIR|0755, st_size=411, ...}) = 0
+lstat("/snap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/snap/spotify/74", {st_mode=S_IFDIR|0755, st_size=100, ...}) = 0
+lstat("/snap/spotify/74/usr", {st_mode=S_IFDIR|0755, st_size=74, ...}) = 0
+lstat("/snap/spotify/74/usr/share", {st_mode=S_IFDIR|0755, st_size=30, ...}) = 0
+lstat("/snap/spotify/74/usr/share/spotify", {st_mode=S_IFDIR|0755, st_size=411, ...}) = 0
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+readlink("/proc/self/exe", "/snap/spotify/74/usr/share/spoti"..., 4096) = 42
+prctl(PR_SET_NAME, "spotify")           = 0
+gettid()                                = 50529
+gettid()                                = 50529
+openat(AT_FDCWD, "/proc/self/cmdline", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+lseek(6, 0, SEEK_SET)                   = 0
+fstat(6, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(6, "\0", 4096)                     = 1
+read(6, "", 3072)                       = 0
+close(6)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=453, ...}) = 0
+mmap(NULL, 453, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8cc5000
+close(6)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=27002, ...}) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 6, 0) = 0x7f72f8c8b000
+close(6)                                = 0
+futex(0x7f72eaf4a954, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c8a000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c89000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=173, ...}) = 0
+mmap(NULL, 173, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c88000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_NAME", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c87000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c86000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=38, ...}) = 0
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c85000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=302, ...}) = 0
+mmap(NULL, 302, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c84000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=2586930, ...}) = 0
+mmap(NULL, 2586930, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72e83f3000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_TIME", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=3464, ...}) = 0
+mmap(NULL, 3464, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c83000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/ar_AE.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/ar_AE.utf8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72f8c82000
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/snap/spotify/74/gnome-platform/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=340640, ...}) = 0
+mmap(NULL, 340640, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f72e839f000
+close(6)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f72eada0090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGILL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGABRT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGFPE, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGALRM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+readlink("/proc/self/exe", "/snap/spotify/74/usr/share/spoti"..., 4096) = 42
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/crash_reporter.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+openat(AT_FDCWD, "/proc/self/status", O_RDONLY) = 6
+read(6, "Name:\tspotify\nUmask:\t0002\nState:"..., 1024) = 1024
+gettid()                                = 50529
+close(6)                                = 0
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/icudtl.dat", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0664, st_size=10717392, ...}) = 0
+mmap(NULL, 10717392, PROT_READ, MAP_SHARED, 6, 0) = 0x7f72e35c7000
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=173, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=173, ...}) = 0
+read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\2\0\0\0\0"..., 1024) = 173
+lseek(7, -95, SEEK_CUR)                 = 78
+read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\2\0\0\0\0"..., 1024) = 95
+close(7)                                = 0
+readlink("/etc/localtime", "/usr/share/zoneinfo/Asia/Dubai", 4095) = 30
+gettid()                                = 50529
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/v8_context_snapshot.bin", O_RDONLY) = 7
+gettid()                                = 50529
+gettid()                                = 50529
+fstat(7, {st_mode=S_IFREG|0664, st_size=647433, ...}) = 0
+mmap(NULL, 647433, PROT_READ, MAP_SHARED, 7, 0) = 0x7f72e8300000
+gettid()                                = 50529
+stat("/", {st_mode=S_IFDIR|0755, st_size=540, ...}) = 0
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+stat("/home/will/snap", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache/spotify", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+lstat("/home/will/snap", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache/spotify", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/", {st_mode=S_IFDIR|0755, st_size=540, ...}) = 0
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+stat("/home/will/snap", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache/spotify", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+lstat("/home/will/snap", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache/spotify", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/", {st_mode=S_IFDIR|0755, st_size=540, ...}) = 0
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+stat("/home/will/snap", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache/spotify", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/will/snap/spotify/common/.cache/spotify/Dictionaries", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+lstat("/home/will/snap", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache/spotify", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home/will/snap/spotify/common/.cache/spotify/Dictionaries", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+stat("/", {st_mode=S_IFDIR|0755, st_size=540, ...}) = 0
+stat("/snap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/snap/spotify/74", {st_mode=S_IFDIR|0755, st_size=100, ...}) = 0
+stat("/snap/spotify/74/usr", {st_mode=S_IFDIR|0755, st_size=74, ...}) = 0
+stat("/snap/spotify/74/usr/share", {st_mode=S_IFDIR|0755, st_size=30, ...}) = 0
+stat("/snap/spotify/74/usr/share/spotify", {st_mode=S_IFDIR|0755, st_size=411, ...}) = 0
+lstat("/snap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/snap/spotify/74", {st_mode=S_IFDIR|0755, st_size=100, ...}) = 0
+lstat("/snap/spotify/74/usr", {st_mode=S_IFDIR|0755, st_size=74, ...}) = 0
+lstat("/snap/spotify/74/usr/share", {st_mode=S_IFDIR|0755, st_size=30, ...}) = 0
+lstat("/snap/spotify/74/usr/share/spotify", {st_mode=S_IFDIR|0755, st_size=411, ...}) = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+futex(0x7f72eb0cc618, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+brk(0x40f2000)                          = 0x40f2000
+brk(0x40f1000)                          = 0x40f1000
+stat("/", {st_mode=S_IFDIR|0755, st_size=540, ...}) = 0
+stat("/snap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/snap/spotify", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/snap/spotify/74", {st_mode=S_IFDIR|0755, st_size=100, ...}) = 0
+stat("/snap/spotify/74/usr", {st_mode=S_IFDIR|0755, st_size=74, ...}) = 0
+stat("/snap/spotify/74/usr/share", {st_mode=S_IFDIR|0755, st_size=30, ...}) = 0
+stat("/snap/spotify/74/usr/share/spotify", {st_mode=S_IFDIR|0755, st_size=411, ...}) = 0
+stat("/snap/spotify/74/usr/share/spotify/locales", {st_mode=S_IFDIR|0755, st_size=32, ...}) = 0
+access("/snap/spotify/74/usr/share/spotify/locales/en-US.pak", F_OK) = 0
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/locales/en-US.pak", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0664, st_size=436711, ...}) = 0
+mmap(NULL, 436711, PROT_READ, MAP_SHARED, 8, 0) = 0x7f72e8295000
+access("/snap/spotify/74/usr/share/spotify/resources.pak", F_OK) = 0
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/resources.pak", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0664, st_size=8163591, ...}) = 0
+mmap(NULL, 8163591, PROT_READ, MAP_SHARED, 9, 0) = 0x7f72e2dfd000
+access("/snap/spotify/74/usr/share/spotify/chrome_100_percent.pak", F_OK) = 0
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/chrome_100_percent.pak", O_RDONLY) = 10
+fstat(10, {st_mode=S_IFREG|0664, st_size=687134, ...}) = 0
+mmap(NULL, 687134, PROT_READ, MAP_SHARED, 10, 0) = 0x7f72e81ed000
+access("/snap/spotify/74/usr/share/spotify/chrome_200_percent.pak", F_OK) = 0
+openat(AT_FDCWD, "/snap/spotify/74/usr/share/spotify/chrome_200_percent.pak", O_RDONLY) = 11
+fstat(11, {st_mode=S_IFREG|0664, st_size=1072982, ...}) = 0
+mmap(NULL, 1072982, PROT_READ, MAP_SHARED, 11, 0) = 0x7f72e80e7000
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+uname({sysname="Linux", nodename="willpc", ...}) = 0
+pkey_alloc(0, 0)                        = -1 EPERM (Operation not permitted)
+gettid()                                = 50529
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_CLOEXEC) = 12
+sysinfo({uptime=24049, loads=[94688, 42336, 20032], totalram=33253740544, freeram=11862999040, sharedram=551059456, bufferram=221528064, totalswap=2147479552, freeswap=2147479552, procs=1319, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 13
+fstat(13, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getdents64(13, 0x40d0fc0 /* 34 entries */, 32768) = 992
+getdents64(13, 0x40d0fc0 /* 0 entries */, 32768) = 0
+close(13)                               = 0
+sched_getaffinity(0, 8, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]) = 8
+gettid()                                = 50529
+openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 13
+fstat(13, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getdents64(13, 0x40d0fc0 /* 34 entries */, 32768) = 992
+getdents64(13, 0x40d0fc0 /* 0 entries */, 32768) = 0
+close(13)                               = 0
+sched_getaffinity(0, 8, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]) = 8
+openat(AT_FDCWD, "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 13
+read(13, "5300000\n", 4096)             = 8
+read(13, "", 4096)                      = 0
+close(13)                               = 0
+futex(0x7f72f872b1e0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\x5e", 1, GRND_NONBLOCK)     = 1
+futex(0x7f72f872c3e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f72f8c81000
+madvise(0x7f72f8c81000, 4096, 0xffffffff /* MADV_??? */) = -1 EINVAL (Invalid argument)
+madvise(0x7f72f8c81000, 4096, MADV_WIPEONFORK) = 0
+futex(0x7f72f872c390, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+gettid()                                = 50529
+openat(AT_FDCWD, "/proc/sys/fs/inotify/max_user_watches", O_RDONLY) = 13
+fstat(13, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+read(13, "65536\n", 4096)               = 6
+read(13, "", 3072)                      = 0
+lseek(13, -1, SEEK_CUR)                 = 5
+close(13)                               = 0
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+access("/home/will/snap/spotify/common/.cache/spotify/WidevineCdm/latest-component-updated-widevine-cdm", F_OK) = 0
+openat(AT_FDCWD, "/home/will/snap/spotify/common/.cache/spotify/WidevineCdm/latest-component-updated-widevine-cdm", O_RDONLY|O_CLOEXEC) = 13
+fstat(13, {st_mode=S_IFREG|0600, st_size=80, ...}) = 0
+lseek(13, 0, SEEK_SET)                  = 0
+fstat(13, {st_mode=S_IFREG|0600, st_size=80, ...}) = 0
+read(13, "{\"Path\":\"/home/will/snap/spotify"..., 4096) = 80
+read(13, "", 4096)                      = 0
+close(13)                               = 0
+access("/home/will/snap/spotify/common/.cache/spotify/WidevineCdm/4.10.2710.0/_platform_specific/linux_x64/libwidevinecdm.so", F_OK) = 0
+openat(AT_FDCWD, "/home/will/snap/spotify/common/.cache/spotify/WidevineCdm/4.10.2710.0/manifest.json", O_RDONLY|O_CLOEXEC) = 13
+fstat(13, {st_mode=S_IFREG|0600, st_size=838, ...}) = 0
+lseek(13, 0, SEEK_SET)                  = 0
+fstat(13, {st_mode=S_IFREG|0600, st_size=838, ...}) = 0
+read(13, "{\n  \"manifest_version\": 2,\n  \"up"..., 4096) = 838
+read(13, "", 4096)                      = 0
+close(13)                               = 0
+openat(AT_FDCWD, "/home/will/snap/spotify/common/.cache/spotify/WidevineCdm/4.10.2710.0/_platform_specific/linux_x64/libwidevinecdm.so", O_RDONLY|O_CLOEXEC) = 13
+read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(13, {st_mode=S_IFREG|0600, st_size=17616424, ...}) = 0
+mmap(NULL, 71559816, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0) = 0x7f72de800000
+mmap(0x7f72df302000, 6045696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0xb01000) = 0x7f72df302000
+mmap(0x7f72df8c6000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x10c4000) = 0x7f72df8c6000
+mmap(0x7f72df8ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x10cb000) = 0x7f72df8ce000
+mmap(0x7f72df8d0000, 53930632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f72df8d0000
+close(13)                               = 0
+mprotect(0x7f72df8c6000, 32768, PROT_READ) = 0
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+gettid()                                = 50529
+futex(0x7f72e2bfa8a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\xee", 1, GRND_NONBLOCK)     = 1
+futex(0x7f72e2bfa9dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f72e80e6000
+madvise(0x7f72e80e6000, 4096, 0xffffffff /* MADV_??? */) = -1 EINVAL (Invalid argument)
+madvise(0x7f72e80e6000, 4096, MADV_WIPEONFORK) = 0
+futex(0x7f72e2bfa988, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+gettid()                                = 50529
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_CLOEXEC) = 13
+gettid()                                = 50529
+openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 14
+read(14, "0-15\n", 8192)                = 5
+close(14)                               = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/kernel_max", O_RDONLY) = 14
+read(14, "8191\n", 32)                  = 5
+read(14, "", 27)                        = 0
+close(14)                               = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/possible", O_RDONLY) = 14
+read(14, "0-15\n", 256)                 = 5
+read(14, "", 251)                       = 0
+close(14)                               = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/present", O_RDONLY) = 14
+read(14, "0-15\n", 256)                 = 5
+read(14, "", 251)                       = 0
+close(14)                               = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/possible", O_RDONLY) = 14
+read(14, "0-15\n", 256)                 = 5
+read(14, "", 251)                       = 0
+close(14)                               = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/present", O_RDONLY) = 14
+read(14, "0-15\n", 256)                 = 5
+read(14, "", 251)                       = 0
+close(14)                               = 0
+openat(AT_FDCWD, "/proc/cpuinfo", O_RDONLY) = 14
+read(14, "processor\t: 0\nvendor_id\t: Genuin"..., 2048) = 2048
+read(14, " tm pbe syscall nx pdpe1gb rdtsc"..., 1927) = 1927
+read(14, "pcid_single ssbd ibrs ibpb stibp"..., 1587) = 1587
+read(14, "pcid_single ssbd ibrs ibpb stibp"..., 1587) = 1587
+read(14, "pcid_single ssbd ibrs ibpb stibp"..., 1587) = 1587
+read(14, "nvpcid_single ssbd ibrs ibpb sti"..., 1589) = 1589
+read(14, "nvpcid_single ssbd ibrs ibpb sti"..., 1589) = 1589
+read(14, "nvpcid_single ssbd ibrs ibpb sti"..., 1589) = 1589
+read(14, "pcid_single ssbd ibrs ibpb stibp"..., 1587) = 1587
+read(14, "pcid_single ssbd ibrs ibpb stibp"..., 1587) = 1587
+read(14, "vpcid_single ssbd ibrs ibpb stib"..., 1588) = 1588
+read(14, "vpcid_single ssbd ibrs ibpb stib"..., 1588) = 1588
+read(14, "vpcid_single ssbd ibrs ibpb stib"..., 1588) = 1588
+read(14, "invpcid_single ssbd ibrs ibpb st"..., 1590) = 1590
+read(14, "invpcid_single ssbd ibrs ibpb st"..., 1590) = 1590
+read(14, "invpcid_single ssbd ibrs ibpb st"..., 1590) = 789
+read(14, "", 2048)                      = 0
+close(14)                               = 0
+futex(0x7f72f8713cd0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+gettid()                                = 50529
+gettid()                                = 50529
+geteuid()                               = 1000
+prlimit64(0, RLIMIT_NICE, NULL, {rlim_cur=0, rlim_max=0}) = 0
+gettid()                                = 50529
+openat(AT_FDCWD, "/proc/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 14
+newfstatat(14, "self/task/", {st_mode=S_IFDIR|0555, st_size=0, ...}, 0) = 0
+close(14)                               = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x7f72ee6888b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f72eaf63420}, NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\4\0\0\0\3\0\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 8
+write(3, "\0\0\0\0", 4)                 = 4
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\214\2\0\0\0\0\0\0\7\0\0\0utility\0\16\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[14, 15, 16, 17]}], msg_controllen=32, msg_flags=0}, 0) = 656
+pipe([18, 19])                          = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f72e8e6ea90) = 50603
+close(18)                               = 0
+close(14)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\253\305\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(19, "\253\305\0\0", 4)            = 4
+close(19)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+close(15)                               = 0
+write(3, "\10\0\0\0\253\305\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="D\3\0\0\0\0\0\0\10\0\0\0renderer\23\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[14, 15, 16, 17]}], msg_controllen=32, msg_flags=0}, 0) = 840
+pipe([18, 19])                          = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f72e8e6ea90) = 50613
+close(18)                               = 0
+close(14)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\265\305\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(19, "\265\305\0\0", 4)            = 4
+close(19)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+close(15)                               = 0
+write(3, "\10\0\0\0\265\305\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\224\2\0\0\0\0\0\0\7\0\0\0utility\0\16\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[14, 15, 16, 17]}], msg_controllen=32, msg_flags=0}, 0) = 664
+pipe([18, 19])                          = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f72e8e6ea90) = 50640
+close(18)                               = 0
+close(14)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\320\305\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(19, "\320\305\0\0", 4)            = 4
+close(19)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+close(15)                               = 0
+write(3, "\10\0\0\0\320\305\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=50640, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\1\0\0\0\320\305\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+kill(50640, SIGKILL)                    = 0
+wait4(50640, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 50640
+write(3, "\10\0\0\0\0\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8 <detached ...>
