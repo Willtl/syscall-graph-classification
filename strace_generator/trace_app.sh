@@ -29,6 +29,10 @@ if [ -z "$APP_NAME" ]; then
     exit 1
 fi
 
+# Create a directory for the application if it doesn't exist
+APP_DIR="${APP_NAME}_strace_logs"
+mkdir -p "$APP_DIR"
+
 # Set of PIDs already traced
 declare -A traced_pids
 
@@ -44,10 +48,10 @@ while true; do
         for pid in $PIDS; do
             # Check if PID is already being traced
             if [ -z "${traced_pids[$pid]}" ]; then
-                # Trace new PID
-                strace -o "strace_output_${APP_NAME}_$pid" -p $pid &
+                # Trace new PID and save output to the application's directory
+                strace -o "${APP_DIR}/strace_output_${APP_NAME}_${pid}" -p $pid &
                 traced_pids[$pid]=1
-                echo "Tracing PID $pid for $APP_NAME. Output file: strace_output_${APP_NAME}_$pid"
+                echo "Tracing PID $pid for $APP_NAME. Output file: ${APP_DIR}/strace_output_${APP_NAME}_${pid}"
             fi
         done
     fi
