@@ -1,0 +1,121 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946276}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946590}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946203}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946371}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15589557}) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15606712}) = 0
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0S\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+gettid()                                = 1
+lseek(36, 0, SEEK_SET)                  = 0
+read(36, "297320248 21565 17440 43421 0 35"..., 4095) = 38
+lseek(37, 0, SEEK_SET)                  = 0
+read(37, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1474
+gettid()                                = 1
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946367}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(36, 0, SEEK_SET)                  = 0
+read(36, "297320248 21565 17440 43421 0 35"..., 4095) = 38
+lseek(37, 0, SEEK_SET)                  = 0
+read(37, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1474
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946043}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946622}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934945954}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946162}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946395}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946765}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946004}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946119}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946575}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946591}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7f50d36c5f58, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f50d36c5f08, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x3774008ab208, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946291}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7f50d36c5f58, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f50d36c5f08, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x3774008ab208, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946715}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(36, 0, SEEK_SET)                  = 0
+read(36, "297320248 21565 17440 43421 0 35"..., 4095) = 38
+lseek(37, 0, SEEK_SET)                  = 0
+read(37, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1475
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946852}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(36, 0, SEEK_SET)                  = 0
+read(36, "297320248 21565 17440 43421 0 35"..., 4095) = 38
+lseek(37, 0, SEEK_SET)                  = 0
+read(37, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1475
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24405, tv_nsec=934946978}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x3774009c0000, 16384, MADV_DONTNEED) = 0
+madvise(0x3774009ec000, 40960, MADV_DONTNEED) = 0
+madvise(0x3774003d0000, 40960, MADV_DONTNEED) = 0
+madvise(0x3774009a0000, 16384, MADV_DONTNEED) = 0
+madvise(0x3774002c5000, 4096, MADV_DONTNEED) = 0
+madvise(0x3774009c9000, 4096, MADV_DONTNEED) = 0
+madvise(0x3774002b9000, 4096, MADV_DONTNEED) = 0
+madvise(0x37740037a000, 4096, MADV_DONTNEED) = 0
+madvise(0x377400219000, 8192, MADV_DONTNEED) = 0
+madvise(0x3774009aa000, 4096, MADV_DONTNEED) = 0
+madvise(0x377400342000, 4096, MADV_DONTNEED) = 0
+madvise(0x377400860000, 8192, MADV_DONTNEED) = 0
+madvise(0x37740030a000, 24576, MADV_DONTNEED) = 0
+madvise(0x3774003ad000, 12288, MADV_DONTNEED) = 0
+madvise(0x3774004d8000, 16384, MADV_DONTNEED) = 0
+madvise(0x3774004b4000, 16384, MADV_DONTNEED) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793558}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(36, 0, SEEK_SET)                  = 0
+read(36, "297320248 21532 17440 43421 0 35"..., 4095) = 38
+lseek(37, 0, SEEK_SET)                  = 0
+read(37, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1475
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793919}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793243}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793228}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793286}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793383}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934792974}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+mprotect(0x377400a20000, 40960, PROT_READ|PROT_WRITE) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934792963}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934792464}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934792466}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24455, tv_nsec=934793087}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
++++ exited with 0 +++

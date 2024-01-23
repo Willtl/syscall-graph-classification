@@ -1,0 +1,2 @@
+restart_syscall(<... resuming interrupted read ...>) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
++++ exited with 0 +++

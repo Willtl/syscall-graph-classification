@@ -1,0 +1,4 @@
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

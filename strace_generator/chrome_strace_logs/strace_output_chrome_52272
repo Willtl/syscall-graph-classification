@@ -1,0 +1,28 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffdd4e52348, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\302\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffdd4e52398, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24453, tv_nsec=507426278}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffdd4e52348, FUTEX_WAKE_PRIVATE, 1) = 0
+write(19, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(5, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\373\7\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(19, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f3835ffc910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 52277, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+write(14, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f3836ffe910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 52275, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffdd4e52488, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffdd4e52438, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x55da4a50b600, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+madvise(0x3048005e8000, 16384, MADV_DONTNEED) = 0
+futex(0x55da4a50b600, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x304800470000, 16384, MADV_DONTNEED) = 0
+munmap(0x7f38393b6000, 439015)          = 0
+close(9)                                = 0
+munmap(0x7f3837800000, 8664302)         = 0
+close(10)                               = 0
+munmap(0x7f38380dd000, 1191820)         = 0
+close(8)                                = 0
+munmap(0x7f3838d4b000, 739437)          = 0
+close(7)                                = 0
+gettid()                                = 52272
+exit_group(0)                           = ?
++++ exited with 0 +++

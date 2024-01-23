@@ -1,0 +1,27 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffe32887ce8, FUTEX_WAKE_PRIVATE, 1) = 0
+write(21, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(5, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\202\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x16540002c6c8, FUTEX_WAKE_PRIVATE, 1) = 1
+write(21, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7fb8fc9faf88, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fb8fc9faf38, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x165400038308, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7fb8fc9fc910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 51936, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+write(14, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(14, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7fb8fd9fcf88, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fb8fd9fcf38, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1654000383c8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7fb8fd9fe910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 51934, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+munmap(0x7fb8ff671000, 439015)          = 0
+close(9)                                = 0
+munmap(0x7fb8fe200000, 8664302)         = 0
+close(10)                               = 0
+munmap(0x7fb8ff6dd000, 1191820)         = 0
+close(8)                                = 0
+munmap(0x7fb8ffdd6000, 739437)          = 0
+close(7)                                = 0
+gettid()                                = 51931
+exit_group(0)                           = ?
++++ exited with 0 +++

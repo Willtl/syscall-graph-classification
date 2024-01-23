@@ -1,0 +1,184 @@
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\344\1\0\0\0\0\0\0\7\0\0\0utility\0\n\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=36, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[15, 16, 17, 18, 19]}], msg_controllen=40, msg_flags=0}, 0) = 488
+pipe2([20, 21], 0)                      = 0
+clone(child_stack=0x7ffcc1f8fda0, flags=CLONE_NEWPID|SIGCHLD) = 60
+close(20)                               = 0
+close(15)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\247\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(21, "\247\316\0\0", 4)            = 4
+close(21)                               = 0
+close(19)                               = 0
+close(18)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+write(3, "\10\0\0\0\247\316\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\344\1\0\0\0\0\0\0\7\0\0\0utility\0\n\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=36, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[15, 16, 17, 18, 19]}], msg_controllen=40, msg_flags=0}, 0) = 488
+pipe2([20, 21], 0)                      = 0
+clone(child_stack=0x7ffcc1f8fda0, flags=CLONE_NEWPID|SIGCHLD) = 66
+close(20)                               = 0
+close(15)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\255\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(21, "\255\316\0\0", 4)            = 4
+close(21)                               = 0
+close(19)                               = 0
+close(18)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+write(3, "\10\0\0\0\255\316\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=60, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\1\0\0\0\247\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+kill(60, SIGKILL)                       = 0
+wait4(60, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 60
+write(3, "\10\0\0\0\0\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=66, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\1\0\0\0\255\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+kill(66, SIGKILL)                       = 0
+wait4(66, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 66
+write(3, "\10\0\0\0\0\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\344\1\0\0\0\0\0\0\7\0\0\0utility\0\n\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=36, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[15, 16, 17, 18, 19]}], msg_controllen=40, msg_flags=0}, 0) = 488
+pipe2([20, 21], 0)                      = 0
+clone(child_stack=0x7ffcc1f8fda0, flags=CLONE_NEWPID|SIGCHLD) = 72
+close(20)                               = 0
+close(15)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\263\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(21, "\263\316\0\0", 4)            = 4
+close(21)                               = 0
+close(19)                               = 0
+close(18)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+write(3, "\10\0\0\0\263\316\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\224\2\0\0\0\0\0\0\10\0\0\0renderer\20\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=36, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[15, 16, 17, 18, 19]}], msg_controllen=40, msg_flags=0}, 0) = 664
+pipe2([20, 21], 0)                      = 0
+clone(child_stack=0x7ffcc1f8fda0, flags=CLONE_NEWPID|SIGCHLD) = 88
+close(20)                               = 0
+close(15)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\351\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(21, "\351\316\0\0", 4)            = 4
+close(21)                               = 0
+close(19)                               = 0
+close(18)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+write(3, "\10\0\0\0\351\316\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=72, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\1\0\0\0\263\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+kill(72, SIGKILL)                       = 0
+wait4(72, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 72
+write(3, "\10\0\0\0\0\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\344\1\0\0\0\0\0\0\7\0\0\0utility\0\n\0\0\0\16\0\0\0/pro"..., iov_len=65536}], msg_iovlen=1, msg_control=[{cmsg_len=36, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[15, 16, 17, 18, 19]}], msg_controllen=40, msg_flags=0}, 0) = 488
+pipe2([20, 21], 0)                      = 0
+clone(child_stack=0x7ffcc1f8fda0, flags=CLONE_NEWPID|SIGCHLD) = 98
+close(20)                               = 0
+close(15)                               = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\4\0\0\0\7\317\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+write(21, "\7\317\0\0", 4)              = 4
+close(21)                               = 0
+close(19)                               = 0
+close(18)                               = 0
+close(17)                               = 0
+close(16)                               = 0
+write(3, "\10\0\0\0\7\317\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=98, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\1\0\0\0\7\317\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+kill(98, SIGKILL)                       = 0
+wait4(98, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 98
+write(3, "\10\0\0\0\0\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0\35\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(12, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\1\0\0\0\35\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = 1 ([{fd=3, revents=POLLIN}], left {tv_sec=1, tv_nsec=999171094})
+wait4(12, NULL, WNOHANG, NULL)          = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0l\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(39, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = 1 ([{fd=3, revents=POLLIN}], left {tv_sec=1, tv_nsec=999949471})
+wait4(12, NULL, WNOHANG, NULL)          = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\1\0\0\0l\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = 1 ([{fd=3, revents=POLLIN}], left {tv_sec=1, tv_nsec=997630962})
+wait4(12, NULL, WNOHANG, NULL)          = 0
+wait4(39, NULL, WNOHANG, NULL)          = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0b\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(30, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = 1 ([{fd=3, revents=POLLIN}], left {tv_sec=1, tv_nsec=999944805})
+wait4(12, NULL, WNOHANG, NULL)          = 0
+wait4(39, NULL, WNOHANG, NULL)          = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\1\0\0\0b\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12, si_uid=1000, si_status=241, si_utime=2, si_stime=1} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+wait4(12, NULL, WNOHANG, NULL)          = 12
+wait4(39, NULL, WNOHANG, NULL)          = 0
+wait4(30, NULL, WNOHANG, NULL)          = 0
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=39, si_uid=1000, si_status=241, si_utime=2, si_stime=2} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+wait4(39, NULL, WNOHANG, NULL)          = 39
+wait4(30, NULL, WNOHANG, NULL)          = 0
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = 1 ([{fd=3, revents=POLLIN}], left {tv_sec=1, tv_nsec=994342408})
+wait4(30, NULL, WNOHANG, NULL)          = 0
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0\36\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(13, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=30, si_uid=1000, si_status=241, si_utime=22, si_stime=7} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+wait4(30, NULL, WNOHANG, NULL)          = 30
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13, si_uid=1000, si_status=0, si_utime=98, si_stime=12} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\1\0\0\0\36\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = 1 ([{fd=3, revents=POLLIN}], left {tv_sec=1, tv_nsec=963400434})
+wait4(13, NULL, WNOHANG, NULL)          = 13
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0u\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(48, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0\351\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(88, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=88, si_uid=1000, si_status=0, si_utime=1, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=48, si_uid=1000, si_status=0, si_utime=15, si_stime=3} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0\20\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(6, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\f\0\0\0\2\0\0\0\0\0\0\0\20\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 16
+wait4(6, 0x7ffcc1f8fd84, WNOHANG, NULL) = 0
+write(3, "\10\0\0\0\4\0\0\0\0\0\0\0", 12) = 12
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\0\0\1\0\0\0\20\316\0\0", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 12
+ppoll([{fd=3, events=POLLIN}], 1, {tv_sec=2, tv_nsec=0}, [], 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6, si_uid=1000, si_status=241, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[CHLD]})             = -1 EINTR (Interrupted system call)
+wait4(6, NULL, WNOHANG, NULL)           = 6
+ppoll([{fd=3, events=POLLIN}], 1, NULL, [], 8) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+recvmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="", iov_len=65536}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

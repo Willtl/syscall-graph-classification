@@ -1,0 +1,930 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0E\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0F\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+mprotect(0x104009c0000, 40960, PROT_READ|PROT_WRITE) = 0
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0G\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+gettid()                                = 1
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296792752 20189 16256 43421 0 32"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1475
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24338, tv_nsec=84515100}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24338, tv_nsec=84514852}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+getrandom("\xb2\xce\x4a\x1a\x87\x58\x22\xca\xa1\x85\xef\xcc\x85\x99\x9e\x7f", 16, 0) = 16
+getrandom("\x27\x13\xee\x2d\xbd\x82\x22\x28\xfa\xde\x40\x25\xfd\xa5\x07\xd8", 16, 0) = 16
+getrandom("\x80\x7f\x6b\x97\x78\x46\x4f\x4c\x37\xab\xaf\x45\x95\x7b\x38\x97", 16, 0) = 16
+getrandom("\x53\x18\x49\xf7\xb4\x6d\x2f\x74\xad\xec\xa1\x2c\xf8\x0b\x6f\x11", 16, 0) = 16
+getrandom("\x09\xcb\xf9\xbb\xee\x07\x81\x3d\xfa\x26\x43\x5e\x99\x86\x3d\xa5", 16, 0) = 16
+gettid()                                = 1
+getrandom("\xad\x17\x5f\x1f\xd5\x0d\x13\xcb", 8, 0) = 8
+getrandom("\xbc\x1c\xd2\x85\xf6\xc1\xe2\xec\xb1\xa6\x54\x79\xa0\xfb\x2c\xb3", 16, 0) = 16
+getrandom("\xd8\x1d\x37\x0a\xdc\x51\x0f\x63\xf2\x2e\x6a\x2e\xfc\x9a\xf1\x35", 16, 0) = 16
+mprotect(0x104009cc000, 16384, PROT_READ|PROT_WRITE) = 0
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0K\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0L\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0M\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0N\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0O\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+mprotect(0x104009d0000, 49152, PROT_READ|PROT_WRITE) = 0
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0P\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+getrandom("\x65\x17\x7b\x1f\x64\xd2\xd1\x3f\xc0\x10\xb3\xb2\x69\x6e\x48\x68", 16, 0) = 16
+getrandom("\x0b\x3f\x53\xe8\x1a\x33\x28\x4a\x64\xa4\xe6\x22\xa7\xbd\x39\x72", 16, 0) = 16
+getrandom("\x11\x85\x1f\x74\xb3\xd2\xa8\x18\x18\x6a\x4f\x98\x21\xdf\x43\xa0", 16, 0) = 16
+getrandom("\x92\xe3\xbb\xf5\x5d\x4c\x8f\x90\xcf\xd1\x19\x49\xfa\x75\x5f\x03", 16, 0) = 16
+gettid()                                = 1
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0R\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x104004dc000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104004e0000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0V\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0W\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+getrandom("\x8c\xe0\x8f\x40\x65\x0d\x22\x3c", 8, 0) = 8
+dup(37)                                 = 33
+fstat(33, {st_mode=S_IFREG|0664, st_size=123744, ...}) = 0
+mmap(NULL, 123744, PROT_READ, MAP_SHARED, 33, 0) = 0x7fbb061a1000
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+getrandom("\x22\xda\x36\xa8\xd6\x36\x67\xfb\xa3\xc9\xe0\x56\x05\xc4\xc2\xcc", 16, 0) = 16
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0Y\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+mprotect(0x104009dc000, 16384, PROT_READ|PROT_WRITE) = 0
+sendto(32, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+getrandom("\xec\x27\x35\xaf\xea\x9c\xa3\xec", 8, 0) = 8
+sendto(32, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+getrandom("\xf9\x32\x5f\xce\xc1\xbd\x9b\xda", 8, 0) = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+mprotect(0x104009e0000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104009e4000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7fba3ec00000, 65536, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104009e8000, 16384, PROT_READ|PROT_WRITE) = 0
+getrandom("\xf2\x00\x40\x52\xee\xac\xed\x0d\x4c\xcd\x72\x39\x36\x7e\x5d\xc9", 16, 0) = 16
+getrandom("\x69\xae\x8f\xc0\x70\xcc\x67\x67\x52\x2a\xdc\x0d\xe6\x32\xc0\x39", 16, 0) = 16
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0c\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+mprotect(0x104004e4000, 16384, PROT_READ|PROT_WRITE) = 0
+getrandom("\xe2\x23\xd1\x02\x63\xae\xab\x01", 8, 0) = 8
+getrandom("\xf3\xd1\x63\xf8\x65\x2f\x0b\xfc", 8, 0) = 8
+getrandom("\x91\x1e\x79\x5f\x55\x31\x48\x78\xe6\x20\x65\x84\x39\x98\x7c\xbe", 16, 0) = 16
+mprotect(0x104009ec000, 16384, PROT_READ|PROT_WRITE) = 0
+getrandom("\xde\x3b\x1a\x8d\xcd\xc9\x4a\x28\x29\x0b\x9a\x61\x12\x40\x80\xf2", 16, 0) = 16
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x38700240000, 262144, PROT_READ|PROT_WRITE) = 0
+gettid()                                = 1
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0e\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+getrandom("\x97\x91\x6f\x7d\x3b\x5e\xd4\xa0", 8, 0) = 8
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x104009f0000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104009f4000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104009f8000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a01000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a0c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a14000, 16384, PROT_READ|PROT_WRITE) = 0
+madvise(0x1040083c000, 65536, MADV_DONTNEED) = 0
+getrandom("\xa8\x6e\xc0\xd5\xda\x6a\xd9\xda\xba\x52\xcf\x6e\x7c\x28\x01\x41", 16, 0) = 16
+getrandom("\xc9\x5c\xc8\x62\x24\xf6\xa7\xd2\xe6\x23\x5b\x02\x5a\x91\x32\x16", 16, 0) = 16
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0g\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+gettid()                                = 1
+getrandom("\x93\xbe\x4b\x10\x55\xda\x5b\x3b", 8, 0) = 8
+getrandom("\x98\x3c\x93\x2c\x5c\x56\x9b\xfb", 8, 0) = 8
+getrandom("\xcf\x68\xfe\x1b\x57\xfd\x45\x3e\xff\x1d\x59\x5d\x9d\xe8\xed\xc4", 16, 0) = 16
+gettid()                                = 1
+gettid()                                = 1
+getrandom("\x09\x5b\x56\x0f\x3f\x49\x71\x57\xf2\x22\xd0\xb8\xb9\x29\x39\x2d", 16, 0) = 16
+mprotect(0x10400a18000, 40960, PROT_READ|PROT_WRITE) = 0
+madvise(0x104003e4000, 81920, MADV_DONTNEED) = 0
+madvise(0x104003d0000, 81920, MADV_DONTNEED) = 0
+futex(0x5600be24f940, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x5600be24f940, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x104009f8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a0c000, 32768, MADV_DONTNEED) = 0
+gettid()                                = 1
+futex(0x5600be299e10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x5600be29aac8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mprotect(0x10400a24000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a28000, 40960, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a34000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a3c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a44000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a4c000, 32768, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400a4c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a3c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a34000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a0c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400a14000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a44000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+mprotect(0x10400a54000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a58000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a5c000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a60000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+mprotect(0x10400a64000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+mprotect(0x104004e8000, 40960, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104004f4000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104004f8000, 16384, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+mprotect(0x38700280000, 262144, PROT_READ|PROT_WRITE) = 0
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0j\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+gettid()                                = 1
+gettid()                                = 1
+getrandom("\xf7\x99\x11\x02\xd6\xb8\x2f\x4b\xa7\x79\x4f\xc8\x5a\x9c\xd9\xed", 16, 0) = 16
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x10400a8c000, 16384, PROT_READ|PROT_WRITE) = 0
+sendto(17, "\10\0\0\0@\1\0\0\30\0\24\0\0\0\0\0k\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 320, MSG_NOSIGNAL, NULL, 0) = 320
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+munmap(0x7fba3c4db000, 2097152)         = 0
+close(28)                               = 0
+futex(0x7fba3ebedf08, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fba3ebedeb8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x10400391908, FUTEX_WAKE_PRIVATE, 1) = 1
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25981062}) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25992963}) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26003902}) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26014123}) = 0
+mprotect(0x10400a90000, 28672, PROT_READ|PROT_WRITE) = 0
+mprotect(0x104004fc000, 28672, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400504000, 65536, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400514000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x14a700101000, 122880, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+mprotect(0x10400518000, 40960, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400a98000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+openat(AT_FDCWD, "/proc/self/cmdline", O_RDONLY|O_CLOEXEC) = -1 EPERM (Operation not permitted)
+getrandom("\x8a\x13\xba\x64\xe7\x80\x7d\xc6", 8, 0) = 8
+getrandom("\xef\x30\x08\xab\x4a\x40\x0d\x2b", 8, 0) = 8
+mprotect(0x10400a9c000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400524000, 49152, PROT_READ|PROT_WRITE) = 0
+mprotect(0x14a700361000, 122880, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400a78000, 28672, MADV_DONTNEED) = 0
+madvise(0x10400a70000, 28672, MADV_DONTNEED) = 0
+mprotect(0x10400aa0000, 16384, PROT_READ|PROT_WRITE) = 0
+getrandom("\x6f\xfa\xa5\x75\x7e\x65\x39\x1a\x4a\x9a\x03\xd9\x17\xf2\xb0\x98", 16, 0) = 16
+getrandom("\x2c\xae\x26\xb1\x1c\xb0\xd0\xcc\x61\x4d\x01\x25\xfb\xe5\x45\x12", 16, 0) = 16
+getrandom("\xff\x3d\x90\x74\xac\x1d\xca\x03\x10\x71\x05\xb8\x6e\xab\x4e\x1c", 16, 0) = 16
+getrandom("\x64\x48\x52\xce\x57\x84\xf1\xb8\x16\x00\xb9\x94\x00\xc6\xf2\x22", 16, 0) = 16
+getrandom("\x99\x3c\x6d\x71\xc3\x95\x8d\xff\x48\xad\xea\x6b\x23\x30\xce\xed", 16, 0) = 16
+getrandom("\x28\x48\x6b\xe2\x2c\x4d\xc9\x2b\x6a\x58\x31\xb6\xb6\xe0\x2a\xea", 16, 0) = 16
+getrandom("\x80\x16\xa7\xc4\xaa\x96\x81\xdc\xa0\x59\x75\xff\xe9\x84\x54\x25", 16, 0) = 16
+getrandom("\xaa\x9f\xe1\xd9\xe7\xf8\xfe\x77\x0a\x60\x40\x80\xeb\x5d\x03\xec", 16, 0) = 16
+getrandom("\xe5\xbd\xac\x1c\x04\xe7\x7b\xbf\x91\x29\xb5\x34\xe4\x36\xc8\x15", 16, 0) = 16
+getrandom("\xbe\x7c\xb3\xed\x94\x33\x98\x94\xb6\x2d\x87\xe4\x3c\x9d\x02\xcc", 16, 0) = 16
+getrandom("\x8d\x0f\xb5\x38\x40\xd9\x82\xac\x27\x06\x2a\xb8\x78\xf2\x8a\x35", 16, 0) = 16
+getrandom("\x31\xf7\xab\x7c\xf9\xba\x41\x2d\x5a\x56\xae\x74\x50\x58\x9e\x47", 16, 0) = 16
+getrandom("\xac\xee\x8e\xbb\x79\x73\xe9\xac\xe3\xcd\x75\x61\x2c\x94\x3b\x24", 16, 0) = 16
+getrandom("\x75\x76\xa5\x43\x77\xb7\x49\xb8\xa0\x9f\xcc\xd2\x47\xfd\x88\x1e", 16, 0) = 16
+getrandom("\x31\x97\xa2\x16\xc3\xa0\xd4\xc5\xcf\x0f\x56\x67\x6e\xd4\x2d\xf6", 16, 0) = 16
+getrandom("\x4d\x97\x32\x8d\x97\x99\x79\x7c\xeb\xca\xf2\x5d\x4f\x50\xaa\xab", 16, 0) = 16
+getrandom("\x65\xdc\xcf\x38\x96\x12\xff\x92\x8b\x16\xcb\x89\xc2\x55\x6f\x60", 16, 0) = 16
+getrandom("\x3b\x85\x89\xed\x41\x52\xa9\x9d\x73\x89\x50\x34\x37\xb8\x7e\xcf", 16, 0) = 16
+getrandom("\x97\xfe\xd2\x97\xd6\x0a\x94\x9d\xb1\x60\x76\x5d\x7f\x5c\xba\x69", 16, 0) = 16
+getrandom("\x10\x1c\x6a\x95\xa8\xfb\x3d\xe2\x29\x08\x6e\x87\x18\x6c\x71\xc9", 16, 0) = 16
+getrandom("\xd5\xd5\x3b\xba\x71\xc8\x08\x57\xe4\xed\x5d\xa2\xdb\x18\xb2\x99", 16, 0) = 16
+getrandom("\x35\x61\xf8\xed\xe5\x45\x0f\xbd\x29\x22\xa1\x5e\xd0\xd5\x0a\x96", 16, 0) = 16
+getrandom("\x7f\xa9\xc3\x16\xe4\x62\x8b\xe0\xb8\x29\x84\x49\xbc\xbd\x53\x1e", 16, 0) = 16
+getrandom("\x97\x3b\xd2\x29\x7d\x64\x75\x4c\xa8\x91\x67\x2e\xaf\xaa\xc7\xfe", 16, 0) = 16
+getrandom("\xb3\x2a\xe0\xce\x97\xe6\xcf\x34\x1a\xe4\x2c\xdd\x74\x28\x19\x2a", 16, 0) = 16
+getrandom("\xec\x2a\x4f\xf3\xa2\xaf\xfe\x3a\xfa\x86\x50\xfb\xdb\xc6\x69\xfb", 16, 0) = 16
+getrandom("\x87\x44\x5a\xd4\x79\x1c\xcf\xac\x51\x32\x66\x9b\x8a\xa4\x05\x08", 16, 0) = 16
+getrandom("\x61\x75\x30\x7f\x43\xba\xdd\x87\x27\x9b\x5b\xb9\xa9\xfb\x9e\x50", 16, 0) = 16
+getrandom("\xad\x5c\xbf\x00\x58\xdc\x5c\xe8\x35\xaa\xa0\x22\xc9\x0f\x76\x26", 16, 0) = 16
+getrandom("\xa3\xd7\xef\xd8\x4a\xf3\xc3\x7a\x79\x40\x42\x3f\x29\x91\xad\x11", 16, 0) = 16
+getrandom("\xa2\xe2\x92\xdb\x7b\x25\xc7\xf3\x45\x63\x35\x59\xf3\x59\xf6\xd2", 16, 0) = 16
+getrandom("\xa3\x5d\x3a\x91\xe3\x1d\x78\xc2\x2c\xc6\xaf\x6e\x46\x0c\x04\xf7", 16, 0) = 16
+mprotect(0x14a700341000, 122880, PROT_READ|PROT_WRITE) = 0
+getrandom("\xcd\xca\x6c\xe7\x1a\x9b\xdb\x13\xa4\xfd\xbd\x98\x94\xf5\x56\xa2", 16, 0) = 16
+getrandom("\x9d\x2b\x38\x7d\x1a\x7b\x10\xeb\x9f\x73\x00\x89\xe6\x4d\x6b\x0d", 16, 0) = 16
+getrandom("\x31\xc2\x7d\xb0\xb1\xce\x2d\x3e\x72\x6e\xf8\x55\xdc\xdb\x8f\x61", 16, 0) = 16
+getrandom("\x5b\x18\x53\xf4\x4e\x44\xe9\x6c\x8a\x79\x2a\x03\x87\xe0\xe4\xa5", 16, 0) = 16
+getrandom("\x69\x6f\x5c\x37\x09\xf6\xfa\x98\xb7\xec\xb9\x73\x3e\x6e\x28\xe8", 16, 0) = 16
+getrandom("\xe3\x6e\x32\x24\x67\x6a\xbd\xdd\x62\xb6\x5e\x7b\x87\x54\xf2\x3c", 16, 0) = 16
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x10400aa4000, 16384, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400a98000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400a24000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+getrandom("\xbd\xff\x95\x48\xf8\x8a\x91\xd8\x5c\x4a\xbf\x0d\x35\xa0\xcb\xca", 16, 0) = 16
+getrandom("\x33\x40\x62\xf3\x04\xfc\x4c\x3f\xe8\xe6\xd0\x34\x68\xe3\x87\x5c", 16, 0) = 16
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getrandom("\x46\x2a\xec\xe6\x0a\x1f\xa7\x5f", 8, 0) = 8
+getrandom("\xa8\x01\xe7\x23\xbf\x23\x69\x69", 8, 0) = 8
+getrandom("\x89\x60\xed\xc4\x03\x7f\xcb\x4c\xea\x35\xfe\xcf\xdb\x1c\xaa\xe2", 16, 0) = 16
+getrandom("\x10\x10\xf8\xff\xf9\x99\xed\x67\x5b\xa4\xd0\x4f\x5a\x04\xbe\x68", 16, 0) = 16
+mprotect(0x10400aa8000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x10400530000, 16384, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400a80000, 49152, MADV_DONTNEED) = 0
+madvise(0x10400a34000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a3c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400aa4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a4c000, 32768, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+mprotect(0x387002c0000, 262144, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+mprotect(0x10400534000, 458752, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400c01000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400c0c000, 458752, PROT_READ|PROT_WRITE) = 0
+madvise(0x104004d0000, 28672, MADV_DONTNEED) = 0
+madvise(0x1040044c000, 32768, MADV_DONTNEED) = 0
+madvise(0x104004fc000, 28672, MADV_DONTNEED) = 0
+madvise(0x104004c4000, 49152, MADV_DONTNEED) = 0
+madvise(0x10400524000, 49152, MADV_DONTNEED) = 0
+madvise(0x10400534000, 458752, MADV_DONTNEED) = 0
+madvise(0x10400a90000, 28672, MADV_DONTNEED) = 0
+getrandom("\x78\x40\x10\x09\xff\x3b\xce\x86\x15\xb2\x98\xc2\x2d\xe7\xbe\x00", 16, 0) = 16
+getrandom("\x73\xe4\x16\xe7\x6c\xe5\x59\xc2\x36\x77\x41\x79\x8b\x57\x98\xfb", 16, 0) = 16
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0|\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+mprotect(0x10400c7c000, 16384, PROT_READ|PROT_WRITE) = 0
+getrandom("\x72\xcc\x73\x86\x9a\x06\xda\x68", 8, 0) = 8
+getrandom("\x74\xd9\x84\x4d\xa3\x38\x7c\xd8", 8, 0) = 8
+getrandom("\x96\xff\x07\x86\x1c\xa1\x50\x66\x0c\x88\xd8\xe0\x0e\x23\x2f\x97", 16, 0) = 16
+mprotect(0x10400aac000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400ab0000, 28672, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400a68000, 28672, MADV_DONTNEED) = 0
+getrandom("\x7d\xe3\x11\xb8\x1a\x9e\xd2\x0e\xfc\x8c\xc4\x22\x06\xd0\x5e\xd5", 16, 0) = 16
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39105543}) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+mprotect(0x10400ab8000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+mprotect(0x10400abc000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39649053}) = 0
+madvise(0x104009f8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400ab0000, 28672, MADV_DONTNEED) = 0
+madvise(0x10400a14000, 16384, MADV_DONTNEED) = 0
+mprotect(0x10400ac0000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400ac4000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400acc000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400ad4000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400adc000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400ae4000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400aec000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400af4000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400afc000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b04000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b0c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b14000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b1c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b24000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b2c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b34000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b3c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b44000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b4c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b54000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b5c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b64000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b6c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b74000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x38700300000, 262144, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b7c000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b84000, 32768, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400b8c000, 32768, PROT_READ|PROT_WRITE) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400ac0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a98000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b8c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b84000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b7c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b34000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b74000, 32768, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b64000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b4c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b44000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b3c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b2c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b24000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b1c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b14000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b0c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b04000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a0c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400afc000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400aec000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400ae4000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400adc000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400acc000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400ac4000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a44000, 32768, MADV_DONTNEED) = 0
+gettid()                                = 1
+madvise(0x10400a4c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a3c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a34000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400af4000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b6c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b54000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400ad4000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+futex(0x7fbb013fcef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fcea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+mprotect(0x10400b94000, 16384, PROT_READ|PROT_WRITE) = 0
+futex(0x5600be24f940, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400b8c000, 32768, MADV_DONTNEED) = 0
+futex(0x5600be24f940, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a24000, 16384, MADV_DONTNEED) = 0
+mprotect(0x10400b98000, 40960, PROT_READ|PROT_WRITE) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b64000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b98000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b74000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b34000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b7c000, 32768, MADV_DONTNEED) = 0
+mprotect(0x10400ba4000, 49152, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400bb0000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400bb4000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400bb8000, 49152, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400b8c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400ac0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b84000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b64000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+madvise(0x10400b74000, 32768, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a98000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b64000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400aa4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400aa4000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+futex(0x7fbb013fd168, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fd118, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+mprotect(0x10400bc4000, 40960, PROT_READ|PROT_WRITE) = 0
+futex(0x7fbb013fd168, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fd118, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+futex(0x7fbb013fd168, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fd118, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x5600be24f940, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400a24000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+getrandom("\xf7\x0d\x89\x16\xb9\x82\x21\x83", 8, 0) = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+mprotect(0x10400bd0000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24329, tv_nsec=973083718}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24329, tv_nsec=973083854}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24329, tv_nsec=973083576}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24330, tv_nsec=856}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+gettid()                                = 1
+mprotect(0x10400c80000, 16384, PROT_READ|PROT_WRITE) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0\223\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\224\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24330, tv_nsec=101217619}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24331, tv_nsec=2044}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0\226\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\227\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296792847 26282 21376 43421 0 34"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1477
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24331, tv_nsec=826534864}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+mprotect(0x10400e5c000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e60000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e64000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e68000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e6c000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e70000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e74000, 16384, PROT_READ|PROT_WRITE) = 0
+mprotect(0x10400e78000, 16384, PROT_READ|PROT_WRITE) = 0
+madvise(0x10400bd4000, 163840, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a24000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+futex(0x7fbb013fcef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fcea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+mprotect(0x10400e7c000, 16384, PROT_READ|PROT_WRITE) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400aec000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400afc000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a0c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b0c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b14000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b1c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b2c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b3c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b44000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b4c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b84000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b8c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b7c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b34000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b74000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b64000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b5c000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400ac0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b04000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400b24000, 32768, MADV_DONTNEED) = 0
+madvise(0x10400a18000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+mprotect(0x387003c0000, 262144, PROT_READ|PROT_WRITE) = 0
+mprotect(0x38700400000, 262144, PROT_READ|PROT_WRITE) = 0
+mprotect(0x38700440000, 262144, PROT_READ|PROT_WRITE) = 0
+mprotect(0x38700480000, 262144, PROT_READ|PROT_WRITE) = 0
+gettid()                                = 1
+gettid()                                = 1
+futex(0x7fbb013fd168, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fd118, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7fbb003faeb8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb003fae68, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025ecb8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x10400bb60a8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x104008a2e60, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24331, tv_nsec=106753952}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400e70000, 16384, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24331, tv_nsec=106753895}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24331, tv_nsec=826534369}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24332, tv_nsec=1429}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400e60000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400e5c000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a98000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400e34000, 163840, MADV_DONTNEED) = 0
+madvise(0x10400e0c000, 163840, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24333, tv_nsec=1579}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26783 21600 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=71969847}) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=72015500}) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24334, tv_nsec=2581}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fbb013fcef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fcea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26815 21600 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24334, tv_nsec=767389222}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=1419}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26815 21600 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24336, tv_nsec=1310}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24337, tv_nsec=1051}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26911 21664 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24337, tv_nsec=1651}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24338, tv_nsec=2419}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26911 21664 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24338, tv_nsec=84516095}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x104009f0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400b94000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400aa4000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a14000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009e0000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009e4000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009e8000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400888000, 16384, MADV_DONTNEED) = 0
+madvise(0x104003bc000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400834000, 32768, MADV_DONTNEED) = 0
+madvise(0x104009b7000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400e77000, 4096, MADV_DONTNEED) = 0
+madvise(0x104002bc000, 4096, MADV_DONTNEED) = 0
+madvise(0x1040037b000, 4096, MADV_DONTNEED) = 0
+madvise(0x1040021d000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400ba5000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400884000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400275000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400272000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400348000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400345000, 4096, MADV_DONTNEED) = 0
+madvise(0x104003cc000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400374000, 8192, MADV_DONTNEED) = 0
+madvise(0x10400329000, 8192, MADV_DONTNEED) = 0
+madvise(0x10400352000, 12288, MADV_DONTNEED) = 0
+madvise(0x104002f4000, 12288, MADV_DONTNEED) = 0
+madvise(0x1040030a000, 24576, MADV_DONTNEED) = 0
+madvise(0x104003e1000, 12288, MADV_DONTNEED) = 0
+madvise(0x10400c7c000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400c80000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400475000, 4096, MADV_DONTNEED) = 0
+madvise(0x104004da000, 4096, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24338, tv_nsec=315712470}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24339, tv_nsec=1033}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24339, tv_nsec=758719391}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400884000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400272000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400345000, 4096, MADV_DONTNEED) = 0
+madvise(0x104003cc000, 4096, MADV_DONTNEED) = 0
+madvise(0x10400374000, 8192, MADV_DONTNEED) = 0
+madvise(0x10400329000, 8192, MADV_DONTNEED) = 0
+madvise(0x10400352000, 12288, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24339, tv_nsec=775168841}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24340, tv_nsec=1358}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24341, tv_nsec=1799}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24342, tv_nsec=1644}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24343, tv_nsec=2127}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24344, tv_nsec=2345}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24345, tv_nsec=1675}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24345, tv_nsec=1944}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24345, tv_nsec=1405}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24346, tv_nsec=2021}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24346, tv_nsec=1799}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24346, tv_nsec=1594}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24347, tv_nsec=2414}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24348, tv_nsec=2221}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24349, tv_nsec=1710}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24349, tv_nsec=2000}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24349, tv_nsec=1691}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=2122}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 26904 21696 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=1528}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400bd4000, 163840, MADV_DONTNEED) = 0
+madvise(0x10400a14000, 16384, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=2040}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014652}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014834}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014503}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+mprotect(0x10400e98000, 40960, PROT_READ|PROT_WRITE) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014567}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014512}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014433}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=803014800}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+gettid()                                = 1
+gettid()                                = 1
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=1514}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=1869}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=1638}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=1513}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=2104}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=1398}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fbb013fcef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fcea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 27352 21888 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7fbb013fd168, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb003faef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb003faea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025ecb8, FUTEX_WAKE_PRIVATE, 1) = 1
+mprotect(0x38700500000, 262144, PROT_READ|PROT_WRITE) = 0
+futex(0x10400a8e7e8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x104008a3160, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fbb013fd168, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fd118, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+getpid()                                = 1
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=2291}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+madvise(0x10400e98000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400e34000, 163840, MADV_DONTNEED) = 0
+madvise(0x104009f4000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400a14000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400ac0000, 16384, MADV_DONTNEED) = 0
+madvise(0x10400bd4000, 163840, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=1572}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=1729}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=2017}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=2269}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=2249}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85208407}) = 0
+clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85330897}) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 27204 21888 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=1811}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=1513}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=1541594}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=1529}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 27204 21888 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=1713}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=1430}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=1166}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=1881}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fbb013fcef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fcea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400e80000, 40960, MADV_DONTNEED) = 0
+madvise(0x10400e8c000, 40960, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=2258}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=2261}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 27233 21888 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=2391}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fbb013fcef8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fbb013fcea8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1040025e7b8, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x10400a28000, 40960, MADV_DONTNEED) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=2267}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=2023}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296794896 27233 21888 43421 0 36"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1478
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=2237}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=1900}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24358, tv_nsec=1553}, FUTEX_BITSET_MATCH_ANY) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+--- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=0, si_uid=1000} ---
+exit_group(241)                         = ?
++++ exited with 241 +++

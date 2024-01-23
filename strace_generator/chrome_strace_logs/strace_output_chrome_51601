@@ -1,0 +1,991 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\26\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24347, tv_nsec=792585705}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\27\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\31\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\32\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24348, tv_nsec=123554077}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=750090988}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=750089798}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\34\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\36\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\37\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24349, tv_nsec=801710406}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0!\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0#\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24350, tv_nsec=537958361}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0$\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=750091260}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=750090129}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0%\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0&\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=788108450}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+gettid()                                = 51601
+openat(AT_FDCWD, "/dev/shm/.com.google.Chrome.ejWK7J", O_RDWR|O_CREAT|O_EXCL, 0600) = 26
+fstat(26, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+ftruncate(26, 8240)                     = 0
+fallocate(26, 0, 0, 8240)               = 0
+getrandom("\xf4\x6e\xe9\x4a\x02\x60\x1b\xfd\x72\xdf\x15\xa3\xce\xb1\x2e\x84", 16, 0) = 16
+unlink("/dev/shm/.com.google.Chrome.ejWK7J") = 0
+mmap(NULL, 8240, PROT_READ|PROT_WRITE, MAP_SHARED, 26, 0) = 0x7fd37d6dc000
+socketpair(AF_UNIX, SOCK_STREAM, 0, [27, 28]) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0'\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0(\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0)\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+mprotect(0xf100011c000, 40960, PROT_READ|PROT_WRITE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0*\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+gettid()                                = 51601
+pipe2([29, 30], O_CLOEXEC)              = 0
+fcntl(29, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(30, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(29, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(29, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(30, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(30, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+getpid()                                = 51601
+openat(AT_FDCWD, "/home/will/.pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/will/.config/pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/pulse/client.conf", O_RDONLY|O_CLOEXEC) = 31
+fcntl(31, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+newfstatat(31, "", {st_mode=S_IFREG|0644, st_size=1201, ...}, AT_EMPTY_PATH) = 0
+read(31, "# This file is part of PulseAudi"..., 4096) = 1201
+read(31, "", 4096)                      = 0
+openat(AT_FDCWD, "/etc/pulse/client.conf.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 32
+newfstatat(32, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(32, 0xf1000068030 /* 3 entries */, 32768) = 96
+getdents64(32, 0xf1000068030 /* 0 entries */, 32768) = 0
+close(32)                               = 0
+openat(AT_FDCWD, "/etc/pulse/client.conf.d/01-enable-autospawn.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+close(31)                               = 0
+openat(AT_FDCWD, "/dev/shm/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 31
+newfstatat(31, "", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=1120, ...}, AT_EMPTY_PATH) = 0
+getdents64(31, 0xf1000068030 /* 56 entries */, 32768) = 3072
+getdents64(31, 0xf1000068030 /* 0 entries */, 32768) = 0
+close(31)                               = 0
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 31
+fcntl(31, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+read(31, "\26\226f\275", 4)             = 4
+close(31)                               = 0
+memfd_create("pulseaudio", MFD_ALLOW_SEALING) = 31
+ftruncate(31, 67108864)                 = 0
+mmap(NULL, 67108864, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 31, 0) = 0x7fd362845000
+getpid()                                = 51601
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd362044000
+mprotect(0x7fd362045000, 8388608, PROT_READ|PROT_WRITE) = 0
+rt_sigprocmask(SIG_BLOCK, ~[], [], 8)   = 0
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7fd362844910, parent_tid=0x7fd362844910, exit_signal=0, stack=0x7fd362044000, stack_size=0x7ff300, tls=0x7fd362844640} => {parent_tid=[51783]}, 88) = 51783
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+getpid()                                = 51601
+newfstatat(AT_FDCWD, "/run/user/1000", {st_mode=S_IFDIR|0700, st_size=520, ...}, 0) = 0
+getuid()                                = 1000
+umask(077)                              = 002
+mkdir("/run/user/1000/pulse", 0700)     = -1 EEXIST (File exists)
+umask(002)                              = 077
+openat(AT_FDCWD, "/run/user/1000/pulse", O_RDONLY|O_NOCTTY|O_NOFOLLOW|O_CLOEXEC) = 32
+newfstatat(32, "", {st_mode=S_IFDIR|0700, st_size=80, ...}, AT_EMPTY_PATH) = 0
+getuid()                                = 1000
+getgid()                                = 1000
+close(32)                               = 0
+readlink("/run", 0x7fffd9472920, 1023)  = -1 EINVAL (Invalid argument)
+readlink("/run/user", 0x7fffd9472920, 1023) = -1 EINVAL (Invalid argument)
+readlink("/run/user/1000", 0x7fffd9472920, 1023) = -1 EINVAL (Invalid argument)
+readlink("/run/user/1000/pulse", 0x7fffd9472920, 1023) = -1 EINVAL (Invalid argument)
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 32
+fcntl(32, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+setsockopt(32, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+fcntl(32, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(32, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+connect(32, {sa_family=AF_UNIX, sun_path="/run/user/1000/pulse/native"}, 110) = 0
+sendto(30, "W", 1, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e668, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e66c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000117a0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e668, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+getpid()                                = 51601
+getpid()                                = 51601
+getpid()                                = 51601
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e66c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000117a0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0,\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+fcntl(26, F_GETFL)                      = 0x8002 (flags O_RDWR|O_LARGEFILE)
+sendmsg(5, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\2\0\330\0\0\0\30\0\24\0\0\0\0\0-\0\0\0\0\0\0\0p\0\0\0\0\0\0\0"..., iov_len=216}], msg_iovlen=1, msg_control=[{cmsg_len=24, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[26, 28]}], msg_controllen=24, msg_flags=0}, MSG_NOSIGNAL) = 216
+close(28)                               = 0
+close(26)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0.\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0/\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0000\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0001\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0002\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0xf100002c6c8, FUTEX_WAKE_PRIVATE, 1) = 1
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0004\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+fcntl(27, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(27, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+write(27, "\0\0\0\0", 4)                = 4
+fcntl(27, F_SETFL, O_RDWR)              = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0005\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0006\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e668, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0007\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\08\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\09\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0;\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0<\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=45698991}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=112501845}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=179292389}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=246077665}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=313041200}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=379836641}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=446637610}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=513421949}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=580203061}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=646999588}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=713790597}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=780595295}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=788108634}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0=\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=847376830}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=847375959}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=914167853}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=980951357}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=47743634}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=114529819}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=181317699}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=248138347}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=314918876}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=381699813}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=448501363}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=448500821}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0@\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0A\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0B\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0C\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0D\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0E\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=448501235}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+mprotect(0xf100012c000, 16384, PROT_READ|PROT_WRITE) = 0
+getrandom("\x19\x0a\x38\x04\x2e\x4c\x92\xdc", 8, GRND_NONBLOCK) = 8
+openat(AT_FDCWD, "/dev/shm/.com.google.Chrome.PKI2mN", O_RDWR|O_CREAT|O_EXCL, 0600) = 28
+fstat(28, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+ftruncate(28, 4144)                     = 0
+fallocate(28, 0, 0, 4144)               = 0
+getrandom("\x7a\x17\xff\xae\xb0\xf8\xb1\x0a\x17\xff\xee\x92\x48\x60\xaf\x5c", 16, 0) = 16
+unlink("/dev/shm/.com.google.Chrome.PKI2mN") = 0
+mmap(NULL, 4144, PROT_READ|PROT_WRITE, MAP_SHARED, 28, 0) = 0x7fd37b57d000
+socketpair(AF_UNIX, SOCK_STREAM, 0, [34, 35]) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0F\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0G\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0H\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0I\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0J\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+pipe2([36, 37], O_CLOEXEC)              = 0
+fcntl(36, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(37, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(36, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(36, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(37, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(37, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+getpid()                                = 51601
+openat(AT_FDCWD, "/home/will/.pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/will/.config/pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/pulse/client.conf", O_RDONLY|O_CLOEXEC) = 38
+fcntl(38, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+newfstatat(38, "", {st_mode=S_IFREG|0644, st_size=1201, ...}, AT_EMPTY_PATH) = 0
+read(38, "# This file is part of PulseAudi"..., 4096) = 1201
+read(38, "", 4096)                      = 0
+openat(AT_FDCWD, "/etc/pulse/client.conf.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 39
+newfstatat(39, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(39, 0xf1000068030 /* 3 entries */, 32768) = 96
+getdents64(39, 0xf1000068030 /* 0 entries */, 32768) = 0
+close(39)                               = 0
+openat(AT_FDCWD, "/etc/pulse/client.conf.d/01-enable-autospawn.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+close(38)                               = 0
+openat(AT_FDCWD, "/dev/shm/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 38
+newfstatat(38, "", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=1120, ...}, AT_EMPTY_PATH) = 0
+getdents64(38, 0xf1000068030 /* 56 entries */, 32768) = 3072
+getdents64(38, 0xf1000068030 /* 0 entries */, 32768) = 0
+close(38)                               = 0
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 38
+fcntl(38, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+read(38, "\244\t\372:", 4)              = 4
+close(38)                               = 0
+memfd_create("pulseaudio", MFD_ALLOW_SEALING) = 38
+ftruncate(38, 67108864)                 = 0
+mmap(NULL, 67108864, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 38, 0) = 0x7fd352024000
+mprotect(0xf1000130000, 40960, PROT_READ|PROT_WRITE) = 0
+getpid()                                = 51601
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd351823000
+mprotect(0x7fd351824000, 8388608, PROT_READ|PROT_WRITE) = 0
+rt_sigprocmask(SIG_BLOCK, ~[], [], 8)   = 0
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7fd352023910, parent_tid=0x7fd352023910, exit_signal=0, stack=0x7fd351823000, stack_size=0x7ff300, tls=0x7fd352023640} => {parent_tid=[51787]}, 88) = 51787
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+getpid()                                = 51601
+newfstatat(AT_FDCWD, "/run/user/1000", {st_mode=S_IFDIR|0700, st_size=520, ...}, 0) = 0
+getuid()                                = 1000
+umask(077)                              = 002
+mkdir("/run/user/1000/pulse", 0700)     = -1 EEXIST (File exists)
+umask(002)                              = 077
+openat(AT_FDCWD, "/run/user/1000/pulse", O_RDONLY|O_NOCTTY|O_NOFOLLOW|O_CLOEXEC) = 39
+newfstatat(39, "", {st_mode=S_IFDIR|0700, st_size=80, ...}, AT_EMPTY_PATH) = 0
+getuid()                                = 1000
+getgid()                                = 1000
+close(39)                               = 0
+readlink("/run", 0x7fffd9472920, 1023)  = -1 EINVAL (Invalid argument)
+readlink("/run/user", 0x7fffd9472920, 1023) = -1 EINVAL (Invalid argument)
+readlink("/run/user/1000", 0x7fffd9472920, 1023) = -1 EINVAL (Invalid argument)
+readlink("/run/user/1000/pulse", 0x7fffd9472920, 1023) = -1 EINVAL (Invalid argument)
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 39
+fcntl(39, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+setsockopt(39, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+fcntl(39, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(39, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+connect(39, {sa_family=AF_UNIX, sun_path="/run/user/1000/pulse/native"}, 110) = 0
+sendto(37, "W", 1, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf10000e9e28, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000116b0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+futex(0xf10000e9e2c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000116b0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf10000e9e28, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+getpid()                                = 51601
+getpid()                                = 51601
+getpid()                                = 51601
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf10000e9e2c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000116b0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0K\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+fcntl(28, F_GETFL)                      = 0x8002 (flags O_RDWR|O_LARGEFILE)
+sendmsg(5, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\10\0\2\0\330\0\0\0\30\0\24\0\0\0\0\0L\0\0\0\0\0\0\0p\0\0\0\0\0\0\0"..., iov_len=216}], msg_iovlen=1, msg_control=[{cmsg_len=24, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[28, 35]}], msg_controllen=24, msg_flags=0}, MSG_NOSIGNAL) = 216
+close(35)                               = 0
+close(28)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0M\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0N\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0O\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0P\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0Q\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0R\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=448501621}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+fcntl(34, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(34, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+write(34, "\0\0\0\0", 4)                = 4
+fcntl(34, F_SETFL, O_RDWR)              = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0T\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0U\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf10000e9e28, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0V\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0W\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+mprotect(0xf100014c000, 49152, PROT_READ|PROT_WRITE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0X\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0Y\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0Z\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0[\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=448502533}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=495677463}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=515296600}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=562459044}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=582077801}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=629284113}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=648858552}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=696085215}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=715642221}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=762864910}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=782417778}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=829687389}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=849313406}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=896458551}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=916085846}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=963263965}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=982879909}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=30105442}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=49744022}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=96892738}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=116540971}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=163684061}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=183343171}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=230464100}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=250136204}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=297258626}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=316923711}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=364086172}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=383761572}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=397892583}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\\\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=430895062}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=430894207}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=450548010}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 35
+read(35, "0-15\n", 1024)                = 5
+close(35)                               = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0]\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0^\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0_\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0`\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=450548124}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=497673252}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=517333393}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=564455069}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=584113142}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=631249881}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=650893623}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=698034754}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=717672676}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=764811555}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=784473704}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=831588520}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=851248649}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=898371171}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=918022160}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=965186296}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=984797712}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=32093680}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=51603783}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=98898688}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=118393535}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=165687530}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=185178653}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=232491508}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=251993952}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=299276913}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=318739521}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=366233750}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=385537228}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=433015473}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=439777194}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=452333877}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=452333142}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=499805166}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=519111876}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=566596665}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=585891736}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=633389893}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=652730957}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=700282914}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=719570199}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=767128676}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=786348607}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=833934175}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=853180963}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=900718766}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=919983829}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=967519197}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24355, tv_nsec=986759683}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=34315729}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=53555549}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=101097552}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=120361369}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=167927862}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=187141199}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=234724688}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=253971841}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=301534182}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x557b39d59600, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x557b39d59600, FUTEX_WAKE_PRIVATE, 1) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fde8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0c\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+write(22, "W", 1)                       = 1
+write(22, "W", 1)                       = 1
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000fdec, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000119e0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0d\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0e\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=301533712}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=320760426}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=368339826}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=387549687}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=435136181}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=454344903}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=501915218}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=521142010}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=568699923}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=587927309}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=635485481}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=654722097}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=702271074}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=721507724}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=769082071}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=788291705}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=835863514}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=855069219}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=902673147}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=921865939}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=969468376}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=978446710}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=978999583}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24356, tv_nsec=988649937}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=36264912}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=55441941}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=103063061}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=122225376}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=169845580}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=189038806}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=236643002}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=255832325}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=299697043}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0g\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=303512400}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=303512415}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=322741461}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=370281101}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=389534660}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=437075012}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=456320464}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=503858039}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=523108518}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=570642916}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=589904088}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=637433297}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(28, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0h\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf10000e9e2c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000116b0, FUTEX_LOCK_PI_PRIVATE, NULL) = 0
+getpid()                                = 51601
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+getpid()                                = 51601
+write(37, "W", 1)                       = 1
+write(37, "W", 1)                       = 1
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf10000e9e28, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000116b0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0i\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+close(34)                               = 0
+munmap(0x7fd37b57d000, 4144)            = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0j\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0k\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0l\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0m\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0o\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0p\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0q\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24357, tv_nsec=656687637}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7fffd9474a28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(26, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0r\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getpid()                                = 51601
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e66c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+getpid()                                = 51601
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+getpid()                                = 51601
+write(30, "W", 1)                       = 1
+write(30, "W", 1)                       = 1
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+futex(0xf100000e668, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0xf10000117a0, FUTEX_UNLOCK_PI_PRIVATE) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0s\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+close(27)                               = 0
+munmap(0x7fd37d6dc000, 8240)            = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0u\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0v\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0w\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0x\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0y\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0z\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(5, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0{\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x7fffd9474a78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24362, tv_nsec=604110456}, FUTEX_BITSET_MATCH_ANY) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+--- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=51005, si_uid=1000} ---
++++ killed by SIGTERM +++

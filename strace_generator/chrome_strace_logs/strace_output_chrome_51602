@@ -1,0 +1,657 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\22\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+openat(AT_FDCWD, "/dev", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 21
+newfstatat(21, "", {st_mode=S_IFDIR|0755, st_size=4900, ...}, AT_EMPTY_PATH) = 0
+getdents64(21, 0x29800068030 /* 245 entries */, 32768) = 7432
+stat("/dev/video3", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x3), ...}) = 0
+stat("/dev/video2", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x2), ...}) = 0
+stat("/dev/video1", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x1), ...}) = 0
+stat("/dev/video0", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0), ...}) = 0
+getdents64(21, 0x29800068030 /* 0 entries */, 32768) = 0
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video3", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video2", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="8-bit Greyscale", pixelformat=v4l2_fourcc('G', 'R', 'E', 'Y') /* V4L2_PIX_FMT_GREY */}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video1", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video0", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idVendor", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "13d3\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idProduct", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "5405\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/interface", O_RDONLY|O_CLOEXEC) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+lseek(22, 0, SEEK_SET)                  = 0
+fstat(22, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(22, "Integrated Camera\n", 4096)   = 18
+read(22, "", 4096)                      = 0
+close(22)                               = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="YUYV 4:2:2", pixelformat=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/20}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/15}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/10}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=2, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_PAN_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_TILT_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_ZOOM_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=758424360}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24351, tv_nsec=906726579}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+openat(AT_FDCWD, "/dev", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 21
+newfstatat(21, "", {st_mode=S_IFDIR|0755, st_size=4900, ...}, AT_EMPTY_PATH) = 0
+getdents64(21, 0x29800068030 /* 245 entries */, 32768) = 7432
+stat("/dev/video3", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x3), ...}) = 0
+stat("/dev/video2", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x2), ...}) = 0
+stat("/dev/video1", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x1), ...}) = 0
+stat("/dev/video0", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0), ...}) = 0
+getdents64(21, 0x29800068030 /* 0 entries */, 32768) = 0
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video3", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video2", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="8-bit Greyscale", pixelformat=v4l2_fourcc('G', 'R', 'E', 'Y') /* V4L2_PIX_FMT_GREY */}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video1", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video0", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idVendor", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "13d3\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idProduct", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "5405\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/interface", O_RDONLY|O_CLOEXEC) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+lseek(22, 0, SEEK_SET)                  = 0
+fstat(22, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(22, "Integrated Camera\n", 4096)   = 18
+read(22, "", 4096)                      = 0
+close(22)                               = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="YUYV 4:2:2", pixelformat=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/20}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/15}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/10}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=2, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_PAN_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_TILT_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_ZOOM_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=758424674}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24352, tv_nsec=126621379}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\26\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+openat(AT_FDCWD, "/dev", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 21
+newfstatat(21, "", {st_mode=S_IFDIR|0755, st_size=4900, ...}, AT_EMPTY_PATH) = 0
+getdents64(21, 0x29800068030 /* 245 entries */, 32768) = 7432
+stat("/dev/video3", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x3), ...}) = 0
+stat("/dev/video2", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x2), ...}) = 0
+stat("/dev/video1", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x1), ...}) = 0
+stat("/dev/video0", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0), ...}) = 0
+getdents64(21, 0x29800068030 /* 0 entries */, 32768) = 0
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video3", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video2", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="8-bit Greyscale", pixelformat=v4l2_fourcc('G', 'R', 'E', 'Y') /* V4L2_PIX_FMT_GREY */}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video1", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video0", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idVendor", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "13d3\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idProduct", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "5405\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/interface", O_RDONLY|O_CLOEXEC) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+lseek(22, 0, SEEK_SET)                  = 0
+fstat(22, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(22, "Integrated Camera\n", 4096)   = 18
+read(22, "", 4096)                      = 0
+close(22)                               = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="YUYV 4:2:2", pixelformat=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/20}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/15}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/10}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=2, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_PAN_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_TILT_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_ZOOM_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\27\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=758423589}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24353, tv_nsec=803264134}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+openat(AT_FDCWD, "/dev", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 21
+newfstatat(21, "", {st_mode=S_IFDIR|0755, st_size=4900, ...}, AT_EMPTY_PATH) = 0
+getdents64(21, 0x29800068030 /* 245 entries */, 32768) = 7432
+stat("/dev/video3", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x3), ...}) = 0
+stat("/dev/video2", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x2), ...}) = 0
+stat("/dev/video1", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x1), ...}) = 0
+stat("/dev/video0", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0), ...}) = 0
+getdents64(21, 0x29800068030 /* 0 entries */, 32768) = 0
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video3", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video2", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="8-bit Greyscale", pixelformat=v4l2_fourcc('G', 'R', 'E', 'Y') /* V4L2_PIX_FMT_GREY */}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video1", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video0", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idVendor", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "13d3\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idProduct", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "5405\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/interface", O_RDONLY|O_CLOEXEC) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+lseek(22, 0, SEEK_SET)                  = 0
+fstat(22, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(22, "Integrated Camera\n", 4096)   = 18
+read(22, "", 4096)                      = 0
+close(22)                               = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="YUYV 4:2:2", pixelformat=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/20}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/15}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/10}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=2, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_PAN_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_TILT_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_ZOOM_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\31\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=758424453}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24354, tv_nsec=540229433}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\32\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+openat(AT_FDCWD, "/dev", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 21
+newfstatat(21, "", {st_mode=S_IFDIR|0755, st_size=4900, ...}, AT_EMPTY_PATH) = 0
+getdents64(21, 0x29800068030 /* 245 entries */, 32768) = 7432
+stat("/dev/video3", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x3), ...}) = 0
+stat("/dev/video2", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x2), ...}) = 0
+stat("/dev/video1", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x1), ...}) = 0
+stat("/dev/video0", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0), ...}) = 0
+getdents64(21, 0x29800068030 /* 0 entries */, 32768) = 0
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video3", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video2", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="8-bit Greyscale", pixelformat=v4l2_fourcc('G', 'R', 'E', 'Y') /* V4L2_PIX_FMT_GREY */}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video1", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video0", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idVendor", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "13d3\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idProduct", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "5405\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/interface", O_RDONLY|O_CLOEXEC) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+lseek(22, 0, SEEK_SET)                  = 0
+fstat(22, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(22, "Integrated Camera\n", 4096)   = 18
+read(22, "", 4096)                      = 0
+close(22)                               = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="YUYV 4:2:2", pixelformat=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/20}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/15}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/10}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=2, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_PAN_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_TILT_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_ZOOM_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=758424270}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24359, tv_nsec=558792509}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\34\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+openat(AT_FDCWD, "/dev", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 21
+newfstatat(21, "", {st_mode=S_IFDIR|0755, st_size=4900, ...}, AT_EMPTY_PATH) = 0
+getdents64(21, 0x29800068030 /* 245 entries */, 32768) = 7432
+stat("/dev/video3", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x3), ...}) = 0
+stat("/dev/video2", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x2), ...}) = 0
+stat("/dev/video1", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0x1), ...}) = 0
+stat("/dev/video0", {st_mode=S_IFCHR|0660, st_rdev=makedev(0x51, 0), ...}) = 0
+getdents64(21, 0x29800068030 /* 0 entries */, 32768) = 0
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video3", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video2", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated I", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="8-bit Greyscale", pixelformat=v4l2_fourcc('G', 'R', 'E', 'Y') /* V4L2_PIX_FMT_GREY */}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video1", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+openat(AT_FDCWD, "/dev/video0", O_RDONLY) = 21
+ioctl(21, VIDIOC_QUERYCAP, {driver="uvcvideo", card="Integrated Camera: Integrated C", bus_info="usb-0000:00:14.0-8", version=KERNEL_VERSION(6, 2, 16), capabilities=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_META_CAPTURE|V4L2_CAP_STREAMING|V4L2_CAP_DEVICE_CAPS, device_caps=V4L2_CAP_VIDEO_CAPTURE|V4L2_CAP_EXT_PIX_FORMAT|V4L2_CAP_STREAMING}) = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idVendor", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "13d3\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/../idProduct", O_RDONLY) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+read(22, "5405\n", 4096)                = 5
+close(22)                               = 0
+openat(AT_FDCWD, "/sys/class/video4linux/video0/device/interface", O_RDONLY|O_CLOEXEC) = 22
+newfstatat(22, "", {st_mode=S_IFREG|0444, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+lseek(22, 0, SEEK_SET)                  = 0
+fstat(22, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(22, "Integrated Camera\n", 4096)   = 18
+read(22, "", 4096)                      = 0
+close(22)                               = 0
+ioctl(21, VIDIOC_ENUM_FMT, {index=0, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=V4L2_FMT_FLAG_COMPRESSED, description="Motion-JPEG", pixelformat=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('M', 'J', 'P', 'G') /* V4L2_PIX_FMT_MJPEG */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=1, type=V4L2_BUF_TYPE_VIDEO_CAPTURE, flags=0, description="YUYV 4:2:2", pixelformat=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=180}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=180}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=2, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=320, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=320, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=3, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=352, height=288}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=352, height=288}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=4, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=424, height=240}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=424, height=240}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=5, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=640, height=360}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/30}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=640, height=360}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=6, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=848, height=480}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/20}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=848, height=480}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=7, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=960, height=540}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/15}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=960, height=540}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=8, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, type=V4L2_FRMSIZE_TYPE_DISCRETE, discrete={width=1280, height=720}}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=0, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720, type=V4L2_FRMIVAL_TYPE_DISCRETE, discrete=1/10}) = 0
+ioctl(21, VIDIOC_ENUM_FRAMEINTERVALS, {index=1, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */, width=1280, height=720}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FRAMESIZES, {index=9, pixel_format=v4l2_fourcc('Y', 'U', 'Y', 'V') /* V4L2_PIX_FMT_YUYV */}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_ENUM_FMT, {index=2, type=V4L2_BUF_TYPE_VIDEO_CAPTURE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_PAN_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_TILT_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+ioctl(21, VIDIOC_QUERYCTRL, {id=V4L2_CID_ZOOM_ABSOLUTE}) = -1 EINVAL (Invalid argument)
+close(21)                               = 0
+sendto(5, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24403, tv_nsec=758424057}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffe6babbe08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffe6babbe58, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24361, tv_nsec=301736459}, FUTEX_BITSET_MATCH_ANY) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+--- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=51005, si_uid=1000} ---
++++ killed by SIGTERM +++

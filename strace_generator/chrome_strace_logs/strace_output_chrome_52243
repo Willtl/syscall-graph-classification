@@ -1,0 +1,6 @@
+waitid(P_ALL, 0, {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13, si_uid=1000, si_status=0, si_utime=12297829382473034410, si_stime=12297829382473034410}, WEXITED, NULL) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13, si_uid=1000, si_status=0, si_utime=94, si_stime=17} ---
+rt_sigreturn({mask=[]})                 = 0
+waitid(P_ALL, 0, {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5, si_uid=1000, si_status=0, si_utime=12297829382473034410, si_stime=12297829382473034410}, WEXITED, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

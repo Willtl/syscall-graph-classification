@@ -1,0 +1,14 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24410, tv_nsec=286464466}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffeef900c88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+lseek(27, 0, SEEK_SET)                  = 0
+read(27, "296792751 17725 13888 43421 0 32"..., 4095) = 38
+lseek(30, 0, SEEK_SET)                  = 0
+read(30, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1475
+futex(0x7ffeef900cd8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24410, tv_nsec=286464724}, FUTEX_BITSET_MATCH_ANY) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+--- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=0, si_uid=1000} ---
+exit_group(241)                         = ?
++++ exited with 241 +++

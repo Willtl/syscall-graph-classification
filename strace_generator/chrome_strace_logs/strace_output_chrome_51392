@@ -1,0 +1,80 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(17, "\10\0\0\0\340\0\0\0\30\0\24\0\0\0\0\0Q\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 224, MSG_NOSIGNAL, NULL, 0) = 224
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0R\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+getrandom("\x18\xcc\x1c\x92\x87\x60\xe4\x4f\x25\x68\xcf\x89\xc2\xb7\xab\xe2", 16, 0) = 16
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+gettid()                                = 1
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0S\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+gettid()                                = 1
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0T\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0U\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+gettid()                                = 1
+futex(0x7fba3ebedf08, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fba3ebedeb8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x10400391908, FUTEX_WAKE_PRIVATE, 1) = 1
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0W\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7fba3ebedf08, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fba3ebedeb8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x10400391908, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffcd39d0d98, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffcd39d0d48, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0^\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0_\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0b\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+getrandom("\xb0\x64\x0a\xb4\x43\xf8\x96\xdf\xe6\x19\x9b\xdb\x9a\xd1\x4a\xcb", 16, 0) = 16
+gettid()                                = 1
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0g\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 1
+lseek(38, 0, SEEK_SET)                  = 0
+read(38, "296792768 20701 16768 43421 0 32"..., 4095) = 38
+lseek(39, 0, SEEK_SET)                  = 0
+read(39, "Name:\tchrome\nUmask:\t0002\nState:\t"..., 4095) = 1476
+futex(0x7fba3ebedf08, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fba3ebedeb8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x10400391908, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7fba3ebedf08, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7fba3ebedeb8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x10400391908, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffcd39d16d8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1688, FUTEX_WAKE_PRIVATE, 1) = 0
+write(24, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830558016}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830557082}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830557265}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830557402}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830556946}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830557076}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830556945}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830556877}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830556745}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830556601}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcd39d1f98, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24335, tv_nsec=830556530}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcd39d1f48, FUTEX_WAKE_PRIVATE, 1) = 0
++++ exited with 0 +++

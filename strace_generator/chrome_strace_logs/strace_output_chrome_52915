@@ -1,0 +1,32 @@
+restart_syscall(<... resuming interrupted read ...>) = 0
+futex(0x7ffcc1faff28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\22\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffcc1faff78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24484, tv_nsec=764459368}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcc1faff28, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcc1faff78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24431, tv_nsec=751140492}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcc1faff28, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(17, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffcc1faff78, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=24484, tv_nsec=764459433}, FUTEX_BITSET_MATCH_ANY) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7ffcc1faff28, FUTEX_WAKE_PRIVATE, 1) = 0
+write(26, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(26, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x3d0c000306c8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+sendto(17, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\26\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x3d0c000306c8, FUTEX_WAKE_PRIVATE, 1) = 0
+write(26, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7fa8febfb910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 5, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+write(16, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7fa9003fe910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 3, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+madvise(0x3d0c000c8000, 16384, MADV_DONTNEED) = 0
+munmap(0x7fa906d8e000, 439015)          = 0
+close(9)                                = 0
+munmap(0x7fa905200000, 8664302)         = 0
+close(10)                               = 0
+munmap(0x7fa905add000, 1191820)         = 0
+close(8)                                = 0
+munmap(0x7fa9066af000, 739437)          = 0
+close(7)                                = 0
+gettid()                                = 1
+exit_group(0)                           = ?
++++ exited with 0 +++

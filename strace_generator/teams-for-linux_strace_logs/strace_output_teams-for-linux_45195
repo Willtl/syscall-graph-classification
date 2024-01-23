@@ -1,0 +1,35 @@
+restart_syscall(<... resuming interrupted read ...>) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999991920}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999991920}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999995069}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999989796}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999989854}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999991007}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999991625}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=2, tv_nsec=19970934}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=1, tv_nsec=978801911}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999992038}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999991917}) = 0
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=1, tv_nsec=206034313}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999990934}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999989719}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999960848}) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffc06820420, FUTEX_WAIT_PRIVATE, 0, {tv_sec=3, tv_nsec=999990913}) = 0
+futex(0x7ffc068203d0, FUTEX_WAKE_PRIVATE, 1) = ?
++++ killed by SIGTERM +++
