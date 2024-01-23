@@ -1,0 +1,29 @@
+open("/etc/passwd", O_RDONLY) = 3
+read(3, "root:x:0:0:root:/root:/bin/bash\n", 4096) = 4096
+ioctl(3, TCGETS, 0x7ffeefbff5a0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "user:x:1:1:user:/home/user:/bin/bash\n", 4096) = 4096
+close(3) = 0
+socket(AF_INET, SOCK_STREAM, IPPROTO_TCP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("93.184.216.34")}, 16) = 0
+sendto(4, "GET / HTTP/1.1\r\nHost: example.com\r\n\r\n", 37, 0, NULL, 0) = 37
+recvfrom(4, "HTTP/1.1 200 OK\r\nContent-Type: te"..., 4096, 0, NULL, NULL) = 4096
+close(4) = 0
+umask(something)
+socket(AF_INET, SOCK_STREAM, IPPROTO_TCP) = 5
+connect(5, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("93.184.216.35")}, 16) = 0
+sendto(5, "POST /login HTTP/1.1\r\nHost: example.org\r\n\r\n", 45, 0, NULL, 0) = 45
+recvfrom(5, "HTTP/1.1 200 OK\r\nContent-Type: ap"..., 4096, 0, NULL, NULL) = 4096
+close(5) = 0
+open("/var/log/auth.log", O_WRONLY|O_APPEND) = 6
+write(6, "User login successful\n", 22) = 22
+close(6) = 0
+ioctl(something else)
+mkdir("/tmp/example", 0755) = 0
+open("/tmp/example/config", O_WRONLY|O_CREAT, 0644) = 7
+write(7, "setting=value\n", 14) = 14
+close(7) = 0
+unlink("/tmp/example/config") = 0
+rmdir("/tmp/example") = 0
+open("/etc/passwd", O_RDONLY) = 8  # Circular: Re-opening /etc/passwd
+read(8, "daemon:x:2:2:daemon:/sbin:/bin/false\n", 4096) = 4096
+close(8) = 0

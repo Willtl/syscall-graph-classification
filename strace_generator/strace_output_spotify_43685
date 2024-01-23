@@ -1,0 +1,46 @@
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\36\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffcc9ef5be0, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=947, tv_nsec=808667336}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x7ffcc9ef5b90, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\37\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0!\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0\"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0#\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+sendto(29, "\10\0\0\0h\0\0\0\30\0\24\0\0\0\0\0$\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+futex(0x7ffcc9ef5be0, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=947, tv_nsec=808663997}, FUTEX_BITSET_MATCH_ANY) = -1 ETIMEDOUT (Connection timed out)
+futex(0x7ffcc9ef5b90, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7f3e1f1fcbb0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f3e1f1fcb60, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x2860878, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+sendto(29, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0%\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+sendto(29, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0&\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x7f3e1f1fcbb0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f3e1f1fcb60, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x2860878, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7f3e1f1fcbb0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f3e1f1fcb60, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x2860878, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f3e1e9fbbb0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f3e1e9fbb60, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f3e18000df8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffcc9ef5ba0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7f3e18000020, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffcc9ef5bf0, FUTEX_WAIT_PRIVATE, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=43569, si_uid=1000} ---
++++ killed by SIGTERM +++

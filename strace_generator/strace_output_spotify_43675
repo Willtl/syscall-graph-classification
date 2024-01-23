@@ -1,0 +1,222 @@
+restart_syscall(<... resuming interrupted read ...>) = 1
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+read(14, "!", 2)                        = 1
+fcntl(46, F_GETFL)                      = 0x8002 (flags O_RDWR|O_LARGEFILE)
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_SHARED, 46, 0) = 0x7f2567f35000
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e3f0) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e3f0) = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 1000) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e760) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e760) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e644) = 0
+munmap(0x7f2558028000, 4096)            = 0
+munmap(0x7f25580ee000, 8192)            = 0
+munmap(0x7f2558010000, 32768)           = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e560) = 0
+munmap(0x7f25580da000, 32768)           = 0
+munmap(0x7f256c028000, 65536)           = 0
+munmap(0x7f2548b2f000, 655360)          = 0
+munmap(0x7f2548bcf000, 655360)          = 0
+munmap(0x7f254932f000, 1310720)         = 0
+munmap(0x7f2549b6f000, 1310720)         = 0
+munmap(0x7f2548fcf000, 2621440)         = 0
+munmap(0x7f2548d4f000, 2621440)         = 0
+munmap(0x7f254a8ff000, 4194304)         = 0
+munmap(0x7f254adff000, 4194304)         = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5e0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5d0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e644) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e644) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e644) = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+read(14, "!", 2)                        = 1
+getpid()                                = 43675
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+write(41, "\0", 1)                      = 1
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e7d0) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e7d0) = 0
+munmap(0x7f25584de000, 65536)           = 0
+close(57)                               = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e7d0) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e7d0) = 0
+munmap(0x7f2558546000, 65536)           = 0
+close(50)                               = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+munmap(0x7f2558556000, 1048576)         = 0
+close(49)                               = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+getpid()                                = 43675
+recvmsg(20, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(20, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(20, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e410) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e410) = 0
+getpid()                                = 43675
+getpid()                                = 43675
+getpid()                                = 43675
+poll([{fd=20, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=20, revents=POLLOUT}])
+writev(20, [{iov_base="\230 \2\0\n\0\200\4", iov_len=8}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 8
+poll([{fd=20, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=20, revents=POLLOUT}])
+writev(20, [{iov_base="6\0\2\0\r\0\200\4b\0\3\0\4\0\0\0SYNC", iov_len=20}], 1) = 20
+poll([{fd=20, events=POLLIN}], 1, -1)   = 1 ([{fd=20, revents=POLLIN}])
+recvmsg(20, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\221\0\0\0\0\0\1\206S\206\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+munmap(0x7f2558525000, 4)               = 0
+poll([{fd=20, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=20, revents=POLLOUT}])
+writev(20, [{iov_base="\206\21\2\0\16\0\200\4\224\3\4\0\f\0\200\4\t\0\200\4\0\0\0\0\212\n\2\0\17\0\200\4", iov_len=32}], 1) = 32
+recvmsg(20, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(20, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=20, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=20, revents=POLLOUT}])
+writev(20, [{iov_base="\4 \2\0\t\0\200\4+\1\1\0", iov_len=12}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 12
+poll([{fd=20, events=POLLIN}], 1, -1)   = 1 ([{fd=20, revents=POLLIN}])
+recvmsg(20, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\2\226\0\0\0\0\0\t\0\240\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=20, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=20, revents=POLLOUT}])
+writev(20, [{iov_base="+ \1\0", iov_len=4}, {iov_base=NULL, iov_len=0}, {iov_base="", iov_len=0}], 3) = 4
+poll([{fd=20, events=POLLIN}], 1, -1)   = 1 ([{fd=20, revents=POLLIN}])
+recvmsg(20, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\2\227\0\0\0\0\0\t\0\240\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+futex(0x7f254bffbca0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f254bffbc50, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f2534019138, FUTEX_WAKE_PRIVATE, 1) = 1
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+getpid()                                = 43675
+futex(0x7f254bffbce0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f254bffbc90, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f2534019138, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f254bffbd60, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+futex(0x7f254bffbd10, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f2534019138, FUTEX_WAKE_PRIVATE, 1) = 1
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e690) = 0
+munmap(0x7f25584ee000, 65536)           = 0
+close(56)                               = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+munmap(0x7f2567f35000, 65536)           = 0
+close(46)                               = 0
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 1000) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+read(14, "!", 2)                        = 1
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 992) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+read(14, "!", 2)                        = 1
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 992) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+read(14, "!", 2)                        = 1
+write(41, "\0", 1)                      = 1
+write(41, "\0", 1)                      = 1
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e614) = 0
+munmap(0x7f255808d000, 20480)           = 0
+munmap(0x7f2558092000, 32768)           = 0
+munmap(0x7f255805d000, 196608)          = 0
+munmap(0x7f254a6ef000, 327680)          = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5b0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5a0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5b0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5a0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5b0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5a0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_BUSY, 0x7ffefee9e5b0) = 0
+ioctl(24, DRM_IOCTL_GEM_CLOSE, 0x7ffefee9e5a0) = 0
+getpid()                                = 43675
+getpid()                                = 43675
+getpid()                                = 43675
+munmap(0x7f25584fe000, 144)             = 0
+close(55)                               = 0
+write(41, "\0", 1)                      = 1
+write(41, "\0", 1)                      = 1
+write(41, "\0", 1)                      = 1
+getpid()                                = 43675
+munmap(0x7f2558524000, 144)             = 0
+close(52)                               = 0
+munmap(0x7f25581d0000, 4096)            = 0
+close(60)                               = 0
+write(41, "\0", 1)                      = 1
+write(41, "\0", 1)                      = 1
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e6e0) = 0
+ioctl(24, DRM_IOCTL_I915_GET_RESET_STATS, 0x7ffefee9e6e0) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e3f4) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e3f4) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e3f4) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e3f4) = 0
+ioctl(24, DRM_IOCTL_I915_GEM_MADVISE, 0x7ffefee9e3f4) = 0
+write(41, "\0", 1)                      = 1
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=3, events=POLLIN}, {fd=14, events=POLLIN}, {fd=18, events=POLLIN}], 3, 988) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(18, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+--- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=43569, si_uid=1000} ---
++++ killed by SIGTERM +++

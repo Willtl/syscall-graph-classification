@@ -1,0 +1,23 @@
+futex(0x7ffdf8887920, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffdf88878d0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(21, "\0", 1)                      = 1
+futex(0x443dec8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+sendto(5, "\10\0\0\08\0\0\0\30\0\26\0\0\0\0\0\223\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+futex(0x443dec8, FUTEX_WAKE_PRIVATE, 1) = 0
+write(21, "\0", 1)                      = 1
+futex(0x7f144e5bb9d0, FUTEX_WAIT, 43709, NULL) = 0
+write(14, "\0", 1)                      = 1
+futex(0x7f1454da79d0, FUTEX_WAIT, 43706, NULL) = 0
+futex(0x7ffdf8887a10, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7ffdf88879c0, FUTEX_WAKE_PRIVATE, 1) = 0
+munmap(0x7f14541d1000, 436711)          = 0
+close(7)                                = 0
+munmap(0x7f1454023000, 1072982)         = 0
+close(10)                               = 0
+munmap(0x7f1454129000, 687134)          = 0
+close(9)                                = 0
+munmap(0x7f144edfd000, 8163591)         = 0
+close(8)                                = 0
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
