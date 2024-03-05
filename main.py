@@ -39,7 +39,7 @@ def get_syscall_type_encoding(syscall):
         return [0, 0, 1]  # Default (other) syscall node
 
 
-def create_graph(syscalls):
+def encode_graph(syscalls):
     unique_syscalls = list(set(syscalls))
     num_nodes = len(unique_syscalls)
     node_mapping = {syscall: i for i, syscall in enumerate(unique_syscalls)}
@@ -56,10 +56,13 @@ def create_graph(syscalls):
         else:
             G.add_edge(src, dst, weight=1)
 
-    # Compute centrality measures
-    katz_centrality = nx.katz_centrality_numpy(G)
+    # Compute centrality measures and other features
+    katz_centrality = nx.katz_centrality_numpy(G, weight='weight')
     betweenness_centrality = nx.betweenness_centrality(G)
     closeness_centrality = nx.closeness_centrality(G)
+    degree_centrality = nx.degree_centrality(G)
+    eigenvector_centrality = nx.eigenvector_centrality_numpy(G, weight='weight')
+    pagerank = nx.pagerank(G, weight='weight')
 
     # Define nodes and their features
     node_features = []
@@ -68,10 +71,15 @@ def create_graph(syscalls):
         katz = katz_centrality[node_idx]
         betweenness = betweenness_centrality[node_idx]
         closeness = closeness_centrality[node_idx]
-        print(syscall, f'katz: {katz}', f'betweeness: {betweenness}', f'closeness: {closeness}')
+        degree = degree_centrality[node_idx]
+        eigenvector = eigenvector_centrality[node_idx]
+        pr = pagerank[node_idx]
+        print(syscall, f'katz: {katz}', f'betweenness: {betweenness}', f'closeness: {closeness}', f'degree: {degree}', f'eigenvector: {eigenvector}', f'pagerank: {pr}')
         syscall_type_encoding = get_syscall_type_encoding(syscall)
-        # Append all centralities to the node features
-        node_features.append(syscall_type_encoding + [katz, betweenness, closeness])
+        # Append features to the node features
+        features = syscall_type_encoding + [katz, betweenness, closeness, degree, eigenvector, pr]
+        print(features)
+        node_features.append(features)
 
     x = torch.tensor(node_features, dtype=torch.float)
     edge_index = list(G.edges())
@@ -120,11 +128,12 @@ def plot_graph(file_path, filter_calls, graph, node_mapping):
     # plt.show()
 
 
-def main(file_path, filter_calls):
+def main(file_path, filter_calls, plot):
     syscalls = read_syscalls(file_path, filter_calls)
-    graph, node_mapping = create_graph(syscalls)
+    graph, node_mapping = encode_graph(syscalls)
 
-    plot_graph(file_path, filter_calls, graph, node_mapping)
+    if plot:
+        plot_graph(file_path, filter_calls, graph, node_mapping)
 
 
 if __name__ == "__main__":
@@ -133,7 +142,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process system call data and visualize as a graph.')
     parser.add_argument('file_path', type=str, help='Path to the file containing system calls')
     parser.add_argument('--filter', action='store_true', help='Filter to include only relevant system calls')
+    parser.add_argument('--plot', action='store_true', default=False, help='Plot the graph')
 
     args = parser.parse_args()
 
-    main(args.file_path, args.filter)
+    main(args.file_path, args.filter, args.plot)
