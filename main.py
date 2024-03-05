@@ -30,40 +30,57 @@ def read_syscalls(file_path, filter_calls):
     return syscalls
 
 
+def get_syscall_type_encoding(syscall):
+    if syscall in file_syscalls:
+        return [1, 0, 0]  # File syscall node
+    elif syscall in network_syscalls:
+        return [0, 1, 0]  # Network syscall node
+    else:
+        return [0, 0, 1]  # Default (other) syscall node
+
+
 def create_graph(syscalls):
     unique_syscalls = list(set(syscalls))
     num_nodes = len(unique_syscalls)
     node_mapping = {syscall: i for i, syscall in enumerate(unique_syscalls)}
 
-    edge_index = []
+    G = nx.DiGraph()  # Create a directed graph using NetworkX
     edge_counter = {}
-    seen_edges = set()
     for i in range(len(syscalls) - 1):
         src = node_mapping[syscalls[i]]
         dst = node_mapping[syscalls[i + 1]]
         edge = (src, dst)
         edge_counter[edge] = edge_counter.get(edge, 0) + 1
-        if edge not in seen_edges:  # Ensure no multiple edges
-            edge_index.append((src, dst))
-            seen_edges.add((src, dst))
+        if G.has_edge(src, dst):
+            G[src][dst]['weight'] += 1
+        else:
+            G.add_edge(src, dst, weight=1)
 
-    # Define nodes and its features
+    # Compute centrality measures
+    katz_centrality = nx.katz_centrality_numpy(G)
+    betweenness_centrality = nx.betweenness_centrality(G)
+    closeness_centrality = nx.closeness_centrality(G)
+
+    # Define nodes and their features
     node_features = []
     for syscall in unique_syscalls:
-        if syscall in file_syscalls:
-            node_features.append([1, 0, 0])  # File syscall node
-        elif syscall in network_syscalls:
-            node_features.append([0, 1, 0])  # Network syscall node
-        else:
-            node_features.append([0, 0, 1])  # Default (other) syscall node
-    x = torch.tensor(node_features, dtype=torch.float)
+        node_idx = node_mapping[syscall]
+        katz = katz_centrality[node_idx]
+        betweenness = betweenness_centrality[node_idx]
+        closeness = closeness_centrality[node_idx]
+        print(syscall, f'katz: {katz}', f'betweeness: {betweenness}', f'closeness: {closeness}')
+        syscall_type_encoding = get_syscall_type_encoding(syscall)
+        # Append all centralities to the node features
+        node_features.append(syscall_type_encoding + [katz, betweenness, closeness])
 
-    # Define edges and its features
+    x = torch.tensor(node_features, dtype=torch.float)
+    edge_index = list(G.edges())
     edge_features = [edge_counter[edge] for edge in edge_index]
-    edge_index = torch.tensor(edge_index, dtype=torch.long)
+    edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
     edge_features = torch.tensor(edge_features, dtype=torch.float)
 
-    graph = Data(x=x, edge_index=edge_index.t().contiguous(), num_nodes=num_nodes, edge_features=edge_features)
+    graph = Data(x=x, edge_index=edge_index, num_nodes=num_nodes, edge_features=edge_features)
+
     return graph, node_mapping
 
 
