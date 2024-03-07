@@ -1,5 +1,3 @@
-# syscall-graph-classification
-
 # System Call Sequence Graph Generator
 
 ## Overview
