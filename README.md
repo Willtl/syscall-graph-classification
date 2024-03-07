@@ -3,21 +3,21 @@
 # System Call Sequence Graph Generator
 
 ## Overview
-This script analyzes sequences of system calls from a file and constructs a directed graph to represent these sequences. Utilizing PyTorch Geometric and NetworkX libraries, it visualizes the flow of system calls. This visualization is instrumental in understanding application behavior and can be particularly useful for detecting patterns in malware.
+This script analyzes system call sequences from a file and constructs a directed graph to represent them. Utilizing the PyTorch Geometric and NetworkX libraries, it visualizes the flow of system calls.
 
 ## Features
-- **Graph Generation**: Converts sequences of system calls into a directed graph.
+- **Graph Generation**: Converts system call logs into a directed graph.
 - **System Call Filtering**: Option to filter the graph based on a predefined list of relevant system calls.
 - **Visualization**: Uses NetworkX for graph visualization, providing a clear view of the system call sequence flow.
 
 ## System Call Filtering
-The script can optionally filter system calls based on a predefined list of relevant system calls. This feature is useful for focusing on specific types of system calls that are more indicative of certain behaviors in applications.
+The script can optionally filter system calls based on a predefined list of relevant system calls. This feature helps focus on specific types of system calls that are more indicative of certain application behaviors.
 
 ## Visualization Details
 The graph visualization plots each system call as a node, with directed edges representing the sequence in which system calls occur. The nodes are color-coded and labeled for easy identification.
 
 ## Relevant System Calls
-The script focuses on a set of relevant system calls for detailed analysis. Below is the table of these system calls along with their descriptions:
+The script focuses on a set of relevant system calls for detailed analysis. Below is the table of these system calls, along with their descriptions:
 
 | Notation | System Call  | Description                                    | Notation | System Call | Description                                   |
 |----------|--------------|------------------------------------------------|----------|-------------|-----------------------------------------------|
